@@ -1,0 +1,44 @@
+body {
+    margin: auto;
+}
+.tabela {
+    font-family: 'Work Sans', sans-serif;
+    margin: auto;
+    width: 50%;
+    border-collapse: collapse;
+    border-bottom: solid #056843 2px;
+    
+}
+
+.tabela th {
+    background-color: #056843;
+    color: whitesmoke;
+    border-collapse: collapse;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    text-align: left;
+
+}
+.tabela td {
+    border-collapse: collapse;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    text-align: left;
+}
+#dva {
+    background-color: rgb(235, 222, 203);
+
+    color: #056843;
+    font-weight: bolder;
+    border-top: solid rgb(207, 186, 153) 1px;
+    border-bottom:solid rgb(207, 186, 153) 1px ;
+
+}
+#levo {
+    border-top-left-radius: 10px;
+}
+#desno {
+    border-top-right-radius: 10px;
+}
