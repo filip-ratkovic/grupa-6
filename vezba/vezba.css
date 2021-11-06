@@ -1,0 +1,10 @@
+
+.ogledalo {
+    background-image: url('nature.jpg');
+width: 900px;
+height: 1200px;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed; 
+text-align: center;
+}
