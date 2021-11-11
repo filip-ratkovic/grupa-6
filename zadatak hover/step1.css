@@ -1,0 +1,37 @@
+
+   body {
+background-color: grey;
+margin: 50px 50px 50px 70px;
+    font-family: "Reenie Beanie",arial,sans-serif;
+   } 
+
+.linkovi a {
+    display: inline-block;
+    text-align: center;
+    background-color: grey(255, 255, 255);
+    color: white;
+    font-size: 20px;
+    padding: 15x;
+    text-decoration: underline;
+}
+.linkovi {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#trenutnilink{
+text-decoration: none;
+font-weight: bold;
+}
+
+.conteiner{
+    width: 192px;
+    height: 192px;
+    background-color:#ffc;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 0.1;
+    display: inline-block;
+
+}

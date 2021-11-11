@@ -4,6 +4,7 @@ body {
 .tabela {
     font-family: 'Work Sans', sans-serif;
     margin: auto;
+    margin-top: 20px;
     width: 50%;
     border-collapse: collapse;
     border-bottom: solid #056843 2px;
