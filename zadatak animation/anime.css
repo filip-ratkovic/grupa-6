@@ -17,8 +17,6 @@ div {
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-   
-
 }
 
 @keyframes animacija {
@@ -26,13 +24,14 @@ div {
     45% {width: 70px; height: 270px;}
     75% {width: 70px; height: 70px;}
    
-    85% {width: 70px; height: 70px;
+    95% {width: 70px; height: 70px;
         box-shadow: 10px 10px 30px rgb(65, 61, 61),
         inset 5px 5px 5px rgb(255, 255, 255), 
         inset -10px -10px 8px rgb(255, 254, 254);} 
     100% {width: 70px; height: 70px; 
         box-shadow: 10px 10px 30px rgb(65, 61, 61),
-        inset 4px 4px 15px 1px grey,
+        inset 4px 4px 15px 1px rgb(54, 53, 53),
         inset -10px -10px 4px -5px rgb(219, 219, 219);}
       
     }
+    

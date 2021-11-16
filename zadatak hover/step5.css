@@ -36,6 +36,7 @@ font-weight: bold;
     transform: rotate(-7deg);
     box-shadow: 5px 5px 25px black;
     background-color: #ffc;
+    transition-duration: 0.4s ;
     
 }
 
@@ -51,6 +52,7 @@ font-weight: bold;
     display: inline-block;
     transform: rotate(7deg);
     box-shadow: 5px 5px 25px black;
+    transition-duration: 0.4s ;
 }
 .conteiner3{
     width: 192px;
@@ -64,6 +66,7 @@ font-weight: bold;
     display: inline-block;
     transform: rotate(4deg);
     box-shadow: 5px 5px 25px black;
+    transition-duration: 0.4s ;
 }
 
 p {
@@ -80,19 +83,24 @@ h2 {
     box-shadow: 10px 10px 5px black;
     display: inline-block;
     transform: scale(1.2 , 1.2);
-    transform: rotate(1 deg);   
+    transform: rotate(1 deg);
+    transition-duration: 0.4s ;  
+     
 }
 .conteiner2:hover {
     box-shadow: 10px 10px 5px black;
     display: inline-block;
     transform: scale(1.2 , 1.2);
     transform: rotate(1 deg);   
+    transition-duration: 0.4s ;
 }
 .conteiner3:hover {
     box-shadow: 10px 10px 5px black;
     display: inline-block;
     transform: scale(1.2 , 1.2);
-    transform: rotate(1 deg);   
+    transform: rotate(1 deg); 
+    transition-duration: 0.4s ;  
+   
 }
 .glavni {
     display: inline-block;
