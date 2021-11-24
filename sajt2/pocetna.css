@@ -1,0 +1,217 @@
+.conteiner {
+    width: 95%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 100px auto;
+    grid-template-areas: 
+    'header header header'
+    'header2 header2 header2'
+    'main main main';
+
+}
+
+
+.header {
+    grid-area: header;
+}
+.header {
+    background-color: #f2f2f2;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 32px;
+    height: 50px;
+    color: gray;
+}
+
+#x {
+    text-decoration: none;
+    color: gray;
+    margin-right: 10px;
+}
+i:hover {
+    padding: 5px;
+    background-color: #c9e4f9;
+}
+i:active {
+    background-color:#acd4f3 ;
+}
+.header i {
+    padding:5px ; 
+}
+.header a {
+    text-decoration: none;
+    color: grey;
+}
+/* header  2 start*/
+.header2 { 
+    grid-area: header2;
+}
+.header2 {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+}
+.header2 a {
+   color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header2 h2 {
+    color: rgb(219, 13, 13);
+}
+/* slika 1 start */
+
+.main {
+    grid-area: main;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+        45deg, #3000ce, #ff063c);
+        color: white;
+        display: inline-block;
+        animation-name: slikastudio;
+}
+.image {
+    display: inline-block;
+    padding: 30px 30px 30px 100px;
+    position: relative;
+    margin-right: 0px;
+    animation-name: slikastudio;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    vertical-align: -110px;
+
+    
+    
+    
+}
+.studiotekst {
+    display: inline-block;
+    width: 40%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: left;
+    animation-name: tekststudio;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+
+}
+.studiotekst h1 {
+    margin: 0px;
+}
+@keyframes slikastudio {
+    0% {left:-600px;
+        animation-timing-function: ease-in;}
+100% {
+      left: 0px;
+      animation-timing-function: ease-out;}
+}
+@keyframes tekststudio {
+    0% {right:-600px;
+        -webkit-animation-timing-function: ease-in;}
+100% {
+      right: 0px;
+      animation-timing-function: ease-out;}
+}
+.learnmore {
+    border: solid white 2px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    font-size: 18px;
+}
+.learnmore:hover {
+    background-color: white;
+    color: black;
+}
+
+/* conteiner 2 */
+.conteiner2 {
+    width: 95%;
+    height: 800px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px auto;
+    grid-template-areas: 
+    'mission mission mission'
+    'box box box';
+
+}
+.mission {
+    grid-area: mission;
+
+}
+
+.mission {
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    position: relative;
+animation-name: ourmission;
+animation-delay: 0s;
+animation-iteration-count: 1;
+animation-duration: 1s;
+
+}
+
+
+@keyframes  ourmission {
+    0% {top: -100px;
+        animation-timing-function: ease-in;
+        color: white;
+    
+    }
+
+    100% {top: 0px;
+      animation-timing-function: ease-out;
+
+    } 
+}
+.box{
+    grid-area: box;
+}
+.light{
+    width: 64px; height: 64px;
+    background-color: #ff063c;
+    border-radius: 50%;
+font-size: 36px;
+text-align: center;
+}
+.creative {
+    display: inline-block;
+    width: 30%;
+}
+.desingbox{
+    display: inline-block;
+    width: 30%;
+}
+.team {
+    display: inline-block;
+    width: 30%;
+}
+.box p {
+    word-wrap: break-word;
+}
