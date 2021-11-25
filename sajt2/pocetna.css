@@ -192,6 +192,21 @@ animation-duration: 1s;
 }
 .box{
     grid-area: box;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Roboto,sans-serif;
+}
+.box p {
+    font-style: italic;
+    color: grey; 
+}
+.box h1 {
+    color: grey;
+}
+.box a {
+    color: #ff063c;
+    text-decoration: none;
+    font-size: x-large;
 }
 .light{
     width: 64px; height: 64px;
@@ -199,18 +214,21 @@ animation-duration: 1s;
     border-radius: 50%;
 font-size: 36px;
 text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 .creative {
     display: inline-block;
-    width: 30%;
+    width: 27%;
 }
-.desingbox{
+.designbox{
     display: inline-block;
-    width: 30%;
+    width: 27%;
 }
 .team {
     display: inline-block;
-    width: 30%;
+    width: 27%;
 }
 .box p {
     word-wrap: break-word;
