@@ -299,9 +299,10 @@ padding: 30px 80px 30px 200px;
 .secrets-text a {
     color: #ff063c;
     text-decoration: none;
-
+}
     
 @media screen and  (max-width: 915px){
+
   .conteiner-secrets {
       display: flex;
       flex-wrap: wrap;
