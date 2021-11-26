@@ -1,3 +1,6 @@
+body {
+    font-family: Roboto,sans-serif;
+}
 .conteiner {
     width: 95%;
     height: 100%;
@@ -150,8 +153,8 @@ i:active {
 /* conteiner 2 */
 .conteiner2 {
     width: 95%;
-    height: 800px;
-    margin-top: 50px;
+    height: 100%;
+    margin: 75px 75px;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: 200px auto;
@@ -218,18 +221,89 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+
+
 .creative {
     display: inline-block;
     width: 27%;
+    position: relative;
+    animation-name: creative;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
 }
+@keyframes creative {
+    0% {left:-200px;
+        animation-timing-function: ease-in;}
+100% {
+      left: 0px;
+      animation-timing-function: ease-out;}
+} 
 .designbox{
     display: inline-block;
     width: 27%;
+    position: relative;
+    animation-name: design;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
 }
+
+@keyframes design {
+    0% {top: 200px;
+        animation-timing-function: ease-in;}
+100% {
+      top: 0px;
+      animation-timing-function: ease-out;}
+} 
 .team {
     display: inline-block;
     width: 27%;
+    position: relative;
+    animation-name: team;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
 }
+
+@keyframes team {
+    0% {left:200px;
+        animation-timing-function: ease-in;}
+100% {
+      left: 0px;
+      animation-timing-function: ease-out;}
+} 
+
 .box p {
     word-wrap: break-word;
+}
+
+/* conteiner secrets */
+.conteiner-secrets{
+    display: flex;
+    margin: 10px;
+
+}
+.secrets-text{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 30px 80px 30px 200px;
+
+}
+.secrets-text img {
+    width: 250px;height: 250px;
+}
+.secrets-text a {
+    color: #ff063c;
+    text-decoration: none;
+
+    
+@media screen and  (max-width: 915px){
+  .conteiner-secrets {
+      display: flex;
+      flex-wrap: wrap;
+  } 
 }
