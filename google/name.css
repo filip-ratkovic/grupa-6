@@ -1,0 +1,108 @@
+.header {
+    background-color: white;
+    color: black;
+    width: 98%;
+    height: 200px;
+    display: flex;
+    justify-content: right;
+    height: 20%;
+}
+.krug {
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
+.header p {
+    padding: 10px;
+}
+ img {
+    display: flex;
+    justify-items: center;
+   align-items: center;
+   margin: auto;
+}
+
+
+.search {
+    height: 50px; width: 80%;
+    border-radius: 20px;
+    border: solid grey 1px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+
+}
+.prvi {
+    display: block;
+    width: 90%;
+    margin: 15px;
+
+}
+.desno {
+  text-align: right;
+  padding: 20px;
+  width: 10%;
+}
+#input {
+    margin-left: 30px;
+    width: 90%;
+    border: none;
+}
+
+#input:focus {
+    outline: none;
+}
+.menu {
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    width: 95%;
+    height: 70px;
+}
+.up {
+    background-color: gainsboro;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    
+}
+.up p {
+    padding-left: 10px
+}
+.down {
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+width: 100%;
+
+}
+
+.left {
+    display: inline-flex;
+    width: 50%;
+}
+
+.right {
+    display: inline-flex;
+    width: 50%;
+    justify-content: right;
+    
+
+
+}
+.right p {
+    padding: 15px;
+    text-align: right;
+
+}
+.left p {
+    padding: 15px;
+
+}
+
+footer {
+    margin-top: 70px;
+}

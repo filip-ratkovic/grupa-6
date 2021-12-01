@@ -1,0 +1,100 @@
+* {
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: #2a2438;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.header ul {
+    display: inline-flex;
+    list-style: none;
+
+}
+
+.header ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.header ul li a {
+    text-decoration: none;
+    color: white;
+}
+.active, .header ul li:hover {
+background-color: #352f44;
+border-radius: 3px;
+}
+.header .fas {
+margin-right: 8px;
+}
+
+.zene {
+    display: none;
+    width: 170px;
+}
+.header ul li:hover .zene {
+    display: block;
+    position: absolute;
+    background-color: #5c5470;
+margin-top: 15px;
+margin-left: -15px;
+}
+
+.header ul li:hover .zene ul {
+    display: block;
+    margin: 10px;
+}
+.header ul li:hover .zene ul li {
+    width: 80px;
+    padding: 10px;
+    border-bottom: solid 1px #dbd8e3;
+    background: transparent;
+    border-radius: 0px;
+    text-align: left;
+}
+.zene ul {
+  float: right;
+  width: 150px;
+}
+.zene {
+    width: 150px;
+}
+
+
+.header ul li:hover .zene ul li:last-child {
+    border-bottom: none;
+}
+.header ul li:hover .zene ul li a:hover {
+    color: thistle;
+}
+.zene .fas {
+    float: right;
+}
+
+
+.letnja {
+    display: none;
+}
+.zene ul li:hover .letnja {
+    display: block;
+    position: absolute;
+    background-color: #5c5470;
+margin-top: -20px;
+margin-left: 90px;
+}
+.letnja {
+    width: 150px;
+}
+
+@media screen  and (max-width: 760px) { 
+    .header ul {
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+    }
+
+   
+
