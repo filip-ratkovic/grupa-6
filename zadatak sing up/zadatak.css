@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    
+}
+.conteiner {
+    display: flex;
+}
+.sing-up {
+    width: 25%;
+}
+img {
+    width: 65%;
+    margin-right: 30px;
+    height: 615px;
+}
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    
+}
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+#submit {
+    background-color: rgb(153, 19, 86);
+    border-radius: 15px;
+    width: 170px;
+    height: 35px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+p{
+    font-size: 12px;
+    padding-left: 10px;
+   float: right;
+}
+
+@media screen and (max-width:700px) {
+   .conteiner {
+       display: flex;
+       flex-wrap: wrap;
+   }
+   .sing-up {
+       width: 70%;
+   }
+   img {
+       width: 100%;
+   }
+}
