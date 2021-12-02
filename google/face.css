@@ -1,0 +1,79 @@
+body{
+    background-color: gainsboro;
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+}
+.logo img {
+width: 20%;
+
+
+}
+.logo {
+    text-align: center;
+    background-color: gainsboro;
+}
+.conteiner {
+    width: 30%;
+height: 500px;
+background-color: white;
+
+}
+.conteiner input {
+    margin: 3px;
+    margin-left: 10px;
+    height: 20px;
+    padding-left: 5px;
+}
+#all {
+    width: 92%;
+}
+.conteiner label {
+    margin-left: 10px;
+}
+p {
+    margin-left: 10px;
+    font-size: 10px;
+    color: grey;
+}
+a {
+    text-align: center;
+}
+#submit {
+    
+    background-color: green;
+     color: white;
+     font-size: 16px;
+     width: 150px;
+     height: 30px;
+     border: none;
+     border-radius: 10px;
+}
+ h1, h4 {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+}
+#datum {
+    width: 27%;
+    
+}
+.border {
+    border: grey solid 1px;
+    border-radius: 10px;
+    width: 27%;
+}
+.gender {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.submit {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
