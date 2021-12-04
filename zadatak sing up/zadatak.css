@@ -17,6 +17,7 @@ input {
     width: 100%;
     border: none;
     outline: none;
+    color: black;
     
 }
 label {
@@ -37,6 +38,8 @@ p{
     padding-left: 10px;
    float: right;
 }
+
+
 
 @media screen and (max-width:700px) {
    .conteiner {

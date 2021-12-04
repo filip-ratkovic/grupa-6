@@ -1,0 +1,141 @@
+
+body {
+    display: flex;
+    flex-direction: row;
+    
+}
+.image {
+    width: 60%;
+   
+}
+.image img {
+    
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.conteiner-singup {
+    height: 100%;
+    margin-left: 15px;
+}
+.logo img {
+   
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+.text h1  {
+    margin: 0px;
+}
+.text h3  {
+    margin: 0px;
+}
+.text {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 10px;   
+}
+.google img {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-self: center;
+    padding-right: 10px;
+}
+.google {
+    margin-left: 20px;
+    height: 35px;
+    width: 50%;
+    border: solid grey 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.iphone p {
+    display: flex;
+    align-self: center;
+
+}
+
+.iphone img {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-self: center;
+    padding-right: 10px;
+}
+.iphone {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 35px;
+    width: 50%;
+    border: solid grey 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.iphone p {
+    display: flex;
+    align-self: center;
+
+}
+.ili {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.telefon {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 35px;
+    width: 50%;
+    border: solid grey 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: royalblue;
+    color: white;
+}
+.telefon p {
+    display: flex;
+    align-self: center;}
+
+.uslov {
+        width: 50%;
+        margin-left: 20px;
+        
+        
+    }  
+.uslov a {
+        text-decoration: none;
+    }
+   .prijava
+   {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 35px;
+    width: 50%;
+    border: solid grey 1px;
+  display: inline-block;
+    border-radius: 20px; 
+    background-color: royalblue;
+    color: white;
+   }
+   .prijava a {
+       color: white;
+       text-decoration: none;
+       display: flex;
+       justify-content: center;
+   }
+@media screen and (max-width:700px) {
+    body {
+        flex-direction: column;
+    }
+}

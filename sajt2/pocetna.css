@@ -1,8 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 body {
     font-family: Roboto,sans-serif;
 }
 .conteiner {
-    width: 95%;
+    width: 100vw;
     height: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -20,7 +25,7 @@ body {
 }
 .header {
     background-color: #f2f2f2;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,7 +61,7 @@ i:active {
 }
 .header2 {
     background-color: white;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -77,13 +82,20 @@ i:active {
 .header2 h2 {
     color: rgb(219, 13, 13);
 }
+@media screen and (max-width:690px) {
+    .header2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
 /* slika 1 start */
 
 .main {
     grid-area: main;
 }
 .main {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     background-image: linear-gradient(
         45deg, #3000ce, #ff063c);
@@ -101,10 +113,12 @@ i:active {
     animation-iteration-count: 1;
     animation-duration: 1s;
     vertical-align: -110px;
-
-    
-    
-    
+}
+@media screen and (max-width:690px) {
+    .main img {
+        width: 100%;
+        height: 100%;
+    }
 }
 .studiotekst {
     display: inline-block;
@@ -152,9 +166,9 @@ i:active {
 
 /* conteiner 2 */
 .conteiner2 {
-    width: 95%;
+    width: 98vw;
     height: 100%;
-    margin: 75px 75px;
+   
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: 200px auto;
@@ -194,6 +208,7 @@ animation-duration: 1s;
     } 
 }
 .box{
+    width: 98vw;
     grid-area: box;
     display: flex;
     justify-content: space-evenly;
@@ -296,6 +311,18 @@ padding: 30px 80px 30px 200px;
 .secrets-text img {
     width: 250px;height: 250px;
 }
+@media screen and (max-width:690px) {
+    .conteiner-secrets img  {
+        width: 300px;
+        height: 220px;
+    }
+    .secrets-text {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+}
 .secrets-text a {
     color: #ff063c;
     text-decoration: none;
@@ -379,3 +406,158 @@ padding: 30px;
       
       animation-timing-function: ease-out;}
 } 
+@media screen and (max-width:690px) {
+    .team-img img {
+        width: 350px;
+        height: 180px;
+    }
+    .team-img {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .conteiner-team {
+        width: 100vw;
+    }
+    .conteiner-secrets {
+        width: 100vw;
+    }
+    .conteiner {
+        width: 100vw;
+    }
+    .conteiner2 {
+        width: 100vw;
+    }
+    .header2 .header .main {
+        width: 100vw;
+    }
+}
+
+.our-service {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.conteiner-image {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    background-color: white;
+    width: 80vw;
+    grid-template-areas: 
+    'kalendar drive propusnica' 
+    'flase books books';
+    grid-gap: 10px;
+   margin: auto
+   ;
+}
+.image-kalendar {
+grid-area: kalendar;
+}
+.image-drive {
+    
+        grid-area: drive;
+}
+.image-propusnica {
+    
+        grid-area: propusnica;
+}
+.image-flase {
+    
+        grid-area: flase;
+}
+.image-books {
+    grid-area: books;
+}
+.conteiner-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.last-conteiner {
+    
+    background-image: linear-gradient(
+        0deg, #765fc0, #3000ce);
+        width: 98vw;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.last-text {
+    color: white;
+    padding-left: 15px;
+    display: flex;
+    width: 42%;
+    height: 84%;
+    background-image: linear-gradient(
+        0deg, #ae6cbe, #ff063c);
+display: flex;
+align-items: center;
+align-content: center;
+gap: 10px;
+flex-wrap: wrap;
+
+    
+}
+.last-text h1{
+font-size: 60px;
+}
+.last-text h3 {
+    font-size: 20px;
+}
+.last-text a {
+    width: 220px;
+    height: 45px;
+    border: solid white 2px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.last-text a:hover {
+    background-color: white;
+    color: black;
+}
+.last-image {
+    background-color: seagreen;
+    width: 42%;
+    height: 84%;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    'foto foto'
+    'foto foto'
+    'hug extra'
+    'letter notes';
+    border: black solid 2px;
+}
+.last-image img {
+    object-fit: contain;
+   
+}
+.fotoaparat {
+     grid-area: foto;
+     border: solid black 2px;
+}
+
+.hug {
+    grid-area: hug;
+    border: solid black 2px;
+}
+
+.extra {
+    grid-area: extra;
+    border: solid black 2px;
+}
+.letter {
+    grid-area: letter;
+    border: solid black 2px;
+}
+.notes {
+    grid-area: notes;
+    border: solid black 2px;
+}
