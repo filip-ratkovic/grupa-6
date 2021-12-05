@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     padding: 0px;
@@ -5,9 +6,10 @@
 }
 body {
     font-family: Roboto,sans-serif;
+   
 }
 .conteiner {
-    width: 100vw;
+    width: 100%;
     height: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -25,12 +27,10 @@ body {
 }
 .header {
     background-color: #f2f2f2;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
-    padding: 10px;
     font-size: 32px;
     height: 50px;
     color: gray;
@@ -39,7 +39,6 @@ body {
 #x {
     text-decoration: none;
     color: gray;
-    margin-right: 10px;
 }
 i:hover {
     padding: 5px;
@@ -61,7 +60,7 @@ i:active {
 }
 .header2 {
     background-color: white;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -95,7 +94,7 @@ i:active {
     grid-area: main;
 }
 .main {
-    width: 100vw;
+    width: 100%;
     height: 100%;
     background-image: linear-gradient(
         45deg, #3000ce, #ff063c);
@@ -166,7 +165,7 @@ i:active {
 
 /* conteiner 2 */
 .conteiner2 {
-    width: 98vw;
+    width: 100%;
     height: 100%;
    
     display: grid;
@@ -208,7 +207,7 @@ animation-duration: 1s;
     } 
 }
 .box{
-    width: 98vw;
+    width: 100%;
     grid-area: box;
     display: flex;
     justify-content: space-evenly;
@@ -296,7 +295,7 @@ justify-content: center;
 /* conteiner secrets */
 .conteiner-secrets{
     display: flex;
-    margin: 10px;
+    
 
 }
 .secrets-text{
@@ -305,7 +304,7 @@ flex-wrap: wrap;
 flex-direction: column;
 justify-content: center;
 align-items: flex-end;
-padding: 30px 80px 30px 200px;
+padding: 30px 80px 30px 100px;
 
 }
 .secrets-text img {
@@ -385,6 +384,10 @@ padding: 30px;
        display: flex;
        justify-content: space-evenly;
     }
+    .team-img img {
+        width: 30%;
+
+    }
 .team-text {
     margin: 50px;
     line-height: 1.8;
@@ -408,27 +411,15 @@ padding: 30px;
 } 
 @media screen and (max-width:690px) {
     .team-img img {
-        width: 350px;
-        height: 180px;
+        width: 80%;
+        height: 100%;
+        margin-top: 10px;
     }
     .team-img {
         display: flex;
         flex-wrap: wrap;
-    }
-    .conteiner-team {
-        width: 100vw;
-    }
-    .conteiner-secrets {
-        width: 100vw;
-    }
-    .conteiner {
-        width: 100vw;
-    }
-    .conteiner2 {
-        width: 100vw;
-    }
-    .header2 .header .main {
-        width: 100vw;
+        padding-top: 10px;
+        
     }
 }
 
@@ -440,33 +431,63 @@ padding: 30px;
 .conteiner-image {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
+    grid-template-rows: 40% 58%;
     background-color: white;
     width: 80vw;
     grid-template-areas: 
     'kalendar drive propusnica' 
     'flase books books';
     grid-gap: 10px;
-   margin: auto
-   ;
+   margin: auto;
+   height: 700px;
+   
+}
+@media screen and (max-width:700px) {
+    .conteiner-image {
+        grid-template-columns: auto;
+        grid-template-rows:   auto auto auto auto;
+        grid-template-areas: 
+    'kalendar' 'drive' 'propusnica'  
+    'flase' ;
+    }
+    .image-books {
+        display: none;
+    }
 }
 .image-kalendar {
 grid-area: kalendar;
+overflow: hidden;
+background-image: url(kalendar.jpg);
+background-size:cover;
+background-position-y: 70%;
 }
 .image-drive {
-    
         grid-area: drive;
+        overflow: hidden;
+        background-image: url(drive.jpg);
+       background-size:cover;
+       background-position-y: 30%;
 }
 .image-propusnica {
-    
         grid-area: propusnica;
+        overflow: hidden;
+        background-image: url(znacka.jpg);
+       background-size:cover;
+       background-position-y: 30%;
 }
 .image-flase {
-    
+    overflow: hidden;
+    background-image: url(flase.jpg);
+   background-size:cover;
+   background-position-y: 30%;
         grid-area: flase;
 }
 .image-books {
     grid-area: books;
+    overflow: hidden;
+    background-image: url(books.jpg);
+   background-size:cover;
+   background-position-y: 30%;
 }
 .conteiner-image img {
     width: 100%;
@@ -477,7 +498,7 @@ grid-area: kalendar;
     
     background-image: linear-gradient(
         0deg, #765fc0, #3000ce);
-        width: 98vw;
+        width: 100%;
         height: 700px;
         display: flex;
         justify-content: center;
@@ -495,7 +516,6 @@ grid-area: kalendar;
 display: flex;
 align-items: center;
 align-content: center;
-gap: 10px;
 flex-wrap: wrap;
 
     
@@ -533,9 +553,6 @@ font-size: 60px;
     'fotoaparat fotoaparat'
     'hug extra'
     'letter notes';
-    
-}
-.last-image  {
     
 }
 
@@ -586,4 +603,116 @@ font-size: 60px;
     background-size:cover;
     background-position-y: 50%;
 
+}
+@media screen and (max-width:700px) {
+
+    .last-conteiner {
+        display: flex;
+        flex-direction: column;
+        height: 2000px;
+    }
+    .last-image {
+        width: 100vw;
+        height: 100%;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-areas: 
+    'fotoaparat ' 'fotoaparat'
+    'hug ' 'extra'
+    'letter' 'notes';
+    }
+    .last-text {
+        width: 100vw;
+        height: 30%;
+        
+    }
+}
+.conteiner-contact {
+    width: 96vw;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
+}
+.conteiner-contact h5 {
+    color: black;
+    padding-top: 20px;
+
+}
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    animation-name: location;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+}
+.contact-icons {
+    width: 60px;
+    height: 60px;
+    background-color: #ff063c;
+    color: white;
+    border-radius: 50%;
+    font-size: 34px;
+justify-content: center;
+        display: flex;
+    align-items: center;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    animation-name: phone;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+}
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    animation-name: email;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+}
+
+@keyframes location {
+    0% {left:-150px;
+       
+        animation-timing-function: ease-in;}
+100% {
+      left: 0px;
+      
+      animation-timing-function: ease-out;}
+}
+
+@keyframes phone {
+    0% {top:-100px;
+       
+        animation-timing-function: ease-in;}
+100% {
+      top: 0px;
+      
+      animation-timing-function: ease-out;}
+}
+
+@keyframes email {
+    0% {left:100px;
+       
+        animation-timing-function: ease-in;}
+100% {
+      left: 0px;
+      
+      animation-timing-function: ease-out;}
 }
