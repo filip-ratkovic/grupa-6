@@ -526,38 +526,64 @@ font-size: 60px;
     width: 42%;
     height: 84%;
     display: grid;
-    grid-template-columns: auto auto ;
-    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 25% 25% 25% 25%;
     grid-template-areas: 
-    'foto foto'
-    'foto foto'
+    'fotoaparat fotoaparat'
+    'fotoaparat fotoaparat'
     'hug extra'
     'letter notes';
-    border: black solid 2px;
+    
 }
-.last-image img {
-    object-fit: contain;
-   
+.last-image  {
+    
+}
+
+.last-image  img {
+    width: 260px;
+    height:200px;
+    object-fit: cover;
+    overflow: hidden;
+
+    
+    
 }
 .fotoaparat {
-     grid-area: foto;
-     border: solid black 2px;
+    grid-area: fotoaparat;
+    overflow: hidden;
+   background-image: url(manaparat.jpg);
+  background-size:cover;
+  background-position-y: 30%;
 }
+
 
 .hug {
     grid-area: hug;
-    border: solid black 2px;
+    overflow: hidden;
+    background-image: url(thuglife.jpg);
+    background-size:cover;
+    background-position-y: 50%;
 }
 
 .extra {
     grid-area: extra;
-    border: solid black 2px;
+    overflow: hidden;
+    background-image: url(extraord.jpg);
+    background-size:cover;
+    
 }
 .letter {
     grid-area: letter;
-    border: solid black 2px;
+    overflow: hidden;
+    background-image: url(letterg.jpg);
+    background-size:cover;
+    background-position-y: 50%;
 }
 .notes {
     grid-area: notes;
-    border: solid black 2px;
+    overflow: hidden;
+    background-image: url(notes.jpg);
+    background-size:cover;
+    background-position-y: 50%;
+
 }
