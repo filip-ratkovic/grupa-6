@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.image {
+    display: inline-block;
+    background-image: 
+    url('books.jpg'),
+   
+    url('extraord.jpg');
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position:right 20px top 10%, right 50px bottom 10%;
+    background-size: 30% 30%, 20% 20%;
+    width: 100%;
+    height: 600px;
+}
+
+.text {
+    width: 50%;
+    height: 100%;
+    color: darkslategrey;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text p {
+    line-height: 1.8;
+}
+
