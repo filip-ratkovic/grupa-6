@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.conteiner {
+   width: 100%;
+    height: 1000px;
+    display: inline-block;
+    border: solid black 1px;
+    position: relative;
+    margin-top: 50px;
+    
+}
+
+
+.header {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    background-color: cadetblue;
+    z-index: 2;
+    top: 0px;
+    border: solid black 1px;
+    
+}
+
+.aside {
+    overflow: auto;
+    text-align: center;
+    width: 20%;
+    height: 800px;
+    position: absolute;
+    top: 110px;
+    left: 0px;
+    border: solid black 1px;  
+}
+
+.main {
+    text-align: center;
+    width: 79%;
+    height: 800px;
+    position: absolute;
+    top: 110px;
+    right: 0px;
+    border: solid black 1px;  
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0px;
+    border: solid black 1px;   
+}
+
+.top-left, .top-right, .center,
+ .bottom-left,.bottom-right {
+text-align: center;
+border: solid blue 1px;
+width: 120px;
+height: 80px;
+
+}
+
+.top-left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.top-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 10;
+}
+
+.center {
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+
+.bottom-right {
+    position: absolute;
+    bottom:  0px;
+    right: 0px;
+}
+
+.aside li {
+    width: 100%;
+    background: chartreuse;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.dropdown{
+    width: 120px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 80px;
+
+    
+}
+.dropdown li {
+    padding: 10px;
+   list-style-type: none;
+    background: palegreen;
+}
+.dropdown li:hover {
+    background-color: paleturquoise;
+    cursor: pointer;
+}
+
+.top-left:hover .dropdown {
+    display: block;
+   
+}
+.top-right img {
+    width: 60px;
+    height: 60px;
+    
+}
+
+.top-right:hover img {
+    position: relative;
+    right: 50px;
+    top: 50px;
+   width: 150px;
+    height: 150px;
+}
