@@ -37,6 +37,14 @@
     left: 0px;
     border: solid black 1px;  
 }
+.aside ul {
+    counter-reset: section;
+    
+}
+.aside li::before {
+    counter-increment: section;
+    content: counters(section, ".") " ";
+}
 
 .main {
     background-image: linear-gradient(20deg, #0d6ac3, #c87ae3, #fd9101);
