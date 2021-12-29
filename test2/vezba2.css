@@ -114,3 +114,20 @@ color: #0a6cca;
 .sing-apple:hover button {
     border: 2px solid grey;
 }
+
+.new {
+
+    text-align: center;
+    margin-top: 15px;
+
+}
+.new a {
+    text-decoration: none;
+    color: #0a6cca;
+    display: inline-block;
+    font-weight: 600;
+
+}
+.new p {
+    display: inline-block;
+}
