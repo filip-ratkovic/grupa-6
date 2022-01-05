@@ -53,15 +53,22 @@
 // console.log (fakt)
 
 
-br1=1
-br2=1
+// br1=1
+// br2=1
 
-console.log(br1)
-console.log(br2)
-for (i=1; i<8; i++) {
-sum=br1+br2 
-br1=br2
-br2=sum
-console.log(sum)
+// console.log(br1)
+// console.log(br2)
+// for (i=1; i<8; i++) {
+// sum=br1+br2 
+// br1=br2
+// br2=sum
+// console.log(sum)
 
+// }
+
+ a="*"
+ console.log (a)
+for (i=0;i<4;i++) {
+a+="*"
+console.log (a)
 }
