@@ -66,13 +66,12 @@
 
 // }
 
- a="*"
- console.log (a)
-for (i=0;i<4;i++) {
-a+="*"
-console.log (a)
-}
-//  projecteuler
+//  a="*"
+//  console.log (a)
+// for (i=0;i<4;i++) {
+// a+="*"
+// console.log (a)
+// }
 
 
 // lozinka= prompt ("unesite lozinku")
@@ -82,9 +81,43 @@ console.log (a)
 // }
 // alert ("Tacna lozinka")
 
-a=prompt("Unesite broj")
 
-while (a>20 ||  a<10) {
-    console.log ("Uneli ste pogresan broj, pokusajte ponovo")
-}
-console.log ("Uneli ste ispravan broj",a)
+// while (true) {
+//     br=Number ( prompt ("Unesite broj"))
+// if (br===0) {
+//     alert ("Uneli ste 0, program se prekida")
+//      break; 
+// }
+//  if (br>=10 && br<=20) {
+//     alert ("Uneli ste tacan broj", br)
+//      }
+//  else {
+//         prompt("Uneli ste pogresan broj, pokusajte ponovo")
+//      }
+//     }
+
+
+
+    // a = Number(prompt("Izaberite broj: 1. Sabiranje, 2. oduzimanje, 3. deljenje, 4. mnozenje, 5.izlaz iz programa"))
+    // b = Number(prompt("Unesite dva broja"))
+    // switch (a) {
+    //     case "1":
+    //         console.log(b + b)
+    //         break;
+    
+    //     case "2":
+    //         console.log(b - b)
+    //         break;
+    
+    //     case "3":
+    //         console.log(b / b)
+    //         break;
+    
+    //     case "4":
+    //         console.log(b * b)
+    //         break;
+    
+    //     case "5":
+    //         break;
+    // }
+    
