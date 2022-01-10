@@ -31,14 +31,25 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(44, 4, 44);
-    border: solid 4px  #1bbee2;
-    box-shadow: 30px 30px 90px 60px #28aecc, -15px -15px 90px 60px #28aecc;
+    border-radius: 4px;
+    box-shadow: 30px 30px 200px 20px #3dc1df, -15px -15px 200px 2px #3dc1df;
     
+}
+
+.datum {
+    display: block;
+    height: 50px;
+    width: 100%;
+}
+#date {
+    color:#3dc1df ;
+    height: 50px;
+    width: 100%;
 }
 
 @media screen and (max-width:600px) {
     .clock {
-        font-size: 45px;
+        font-size: 40px;
         
     }
     .oko {
