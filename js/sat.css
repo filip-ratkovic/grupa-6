@@ -10,20 +10,40 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(44, 4, 44);
 }
 
 .clock {
-    color: #1bbee2;
     font-size: 100px;
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 7px;
+    color: #1bbee2;
+    
+}
+
+
+
+.oko {
+    background-color: black;
+    width: 650px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 4, 44);
+    border: solid 4px  #1bbee2;
+    box-shadow: 30px 30px 90px 60px #28aecc, -15px -15px 90px 60px #28aecc;
+    
 }
 
 @media screen and (max-width:600px) {
     .clock {
-        font-size: 25px;
-        position: absolute;
-        top: 10px;
-        right:10px ;
+        font-size: 45px;
+        
+    }
+    .oko {
+
+        width: 80%;
+        height: 150px;
     }
 }
