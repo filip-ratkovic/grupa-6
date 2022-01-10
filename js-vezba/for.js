@@ -98,26 +98,34 @@
 
 
 
-    // a = Number(prompt("Izaberite broj: 1. Sabiranje, 2. oduzimanje, 3. deljenje, 4. mnozenje, 5.izlaz iz programa"))
-    // b = Number(prompt("Unesite dva broja"))
-    // switch (a) {
-    //     case "1":
-    //         console.log(b + b)
-    //         break;
+    a = (prompt("Izaberite broj: 1. Sabiranje, 2. oduzimanje, 3. deljenje, 4. mnozenje, 5.izlaz iz programa"))
+   
+    switch (a) {
+        case "5":
+            break;
+        case "1":
+            b = Number(prompt("Unesite 1. broj"))
+            c = Number(prompt("Unesite 2. broj"))
+            console.log(b+c)
+            break;
     
-    //     case "2":
-    //         console.log(b - b)
-    //         break;
+        case "2":
+            b = Number(prompt("Unesite 1. broj"))
+            c = Number(prompt("Unesite 2. broj"))
+            console.log(b-c)
+            break;
     
-    //     case "3":
-    //         console.log(b / b)
-    //         break;
+        case "3":
+            b = Number(prompt("Unesite 1. broj"))
+            c = Number(prompt("Unesite 2. broj"))
+            console.log(b/c)
+            break;
     
-    //     case "4":
-    //         console.log(b * b)
-    //         break;
-    
-    //     case "5":
-    //         break;
-    // }
+        case "4":
+            b = Number(prompt("Unesite 1. broj"))
+            c = Number(prompt("Unesite 2. broj"))
+            console.log(b*c)
+            break;
+     
+    }
     
