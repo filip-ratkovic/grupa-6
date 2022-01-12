@@ -96,13 +96,12 @@
 //      }
 //     }
 
+a = (prompt("Izaberite broj: 1. Sabiranje, 2. oduzimanje, 3. deljenje, 4. mnozenje, 5.izlaz iz programa"))
 
+while (true) {
 
-    a = (prompt("Izaberite broj: 1. Sabiranje, 2. oduzimanje, 3. deljenje, 4. mnozenje, 5.izlaz iz programa"))
-   
     switch (a) {
-        case "5":
-            break;
+        
         case "1":
             b = Number(prompt("Unesite 1. broj"))
             c = Number(prompt("Unesite 2. broj"))
@@ -126,6 +125,9 @@
             c = Number(prompt("Unesite 2. broj"))
             console.log(b*c)
             break;
-     
+           
+    } if (a=="5") {
+        console.log ("prekid");
+        break;
     }
-    
+}
