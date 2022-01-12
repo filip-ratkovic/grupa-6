@@ -85,7 +85,12 @@ for (i=0 ; i<10 ; i++)
 {
     niza= ( niz[(niz.length-10) +i])
 
+
+    if (niza===0) {
+        console.log ("Broj 0 je takodje paran broj")
+        continue
+    }
     if (niza%2===0)
-    console.log (niza)
+    console.log (niza, "je parni broj")
 
 }
