@@ -63,7 +63,7 @@
 
 // for (i=0 ; i<10 ; i++) 
 // {
-//     niza= ( niz[(niz.length-10) +i])
+//     niza= ( niz[(niz.length-niz.length) +i])
 // console.log(niza*3)
 
    
@@ -72,25 +72,25 @@
 
 // ZADATAK 2 
 
-niz = []
-niza=0
+// niz = []
+// niza=0
 
-for (i=0 ; i<10 ; i++) {
-    broj=Number(prompt("Unesite broj"))
-    niz.push(broj)
+// for (i=0 ; i<10 ; i++) {
+//     broj=Number(prompt("Unesite broj"))
+//     niz.push(broj)
 
-}
+// }
 
-for (i=0 ; i<10 ; i++) 
-{
-    niza= ( niz[(niz.length-10) +i])
+// for (i=0 ; i<10 ; i++) 
+// {
+//     niza= ( niz[(niz.length-niz.length) +i])
 
 
-    if (niza===0) {
-        console.log ("Broj 0 je takodje paran broj")
-        continue
-    }
-    if (niza%2===0)
-    console.log (niza, "je parni broj")
+//     if (niza===0) {
+//         console.log ("Broj 0 je takodje paran broj")
+//         continue
+//     }
+//     if (niza%2===0)
+//     console.log (niza, "je parni broj")
 
-}
+// }
