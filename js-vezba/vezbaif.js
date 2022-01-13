@@ -52,22 +52,22 @@
 
 // ZADATAK 1 A ////
 
-// niz = []
-// niza=0
+niz = []
+niza=0
 
-// for (i=0 ; i<10 ; i++) {
-//     broj=Number(prompt("Unesite broj"))
-//     niz.push(broj)
+for (i=0 ; i<10 ; i++) {
+    broj=Number(prompt("Unesite broj"))
+    niz.push(broj)
 
-// }
+}
 
-// for (i=0 ; i<10 ; i++) 
-// {
-//     niza= ( niz[(niz.length-niz.length) +i])
-// console.log(niza*3)
+for (i=0 ; i<10 ; i++) 
+{
+    niza= ( niz[i])
+console.log(niza*3)
 
    
-// }
+}
 
 
 // ZADATAK 2 
@@ -83,7 +83,7 @@
 
 // for (i=0 ; i<10 ; i++) 
 // {
-//     niza= ( niz[(niz.length-niz.length) +i])
+//     niza= ( niz[i])
 
 
 //     if (niza===0) {
