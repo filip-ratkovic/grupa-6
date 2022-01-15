@@ -52,23 +52,21 @@
 
 // ZADATAK 1 A ////
 
-niz = []
-niza=0
+// niz = []
+// niza=0
 
-for (i=0 ; i<10 ; i++) {
-    broj=Number(prompt("Unesite broj"))
-    niz.push(broj)
+// for (i=0 ; i<10 ; i++) {
+//     broj=Number(prompt("Unesite broj"))
+//     niz.push(broj)
 
-}
+// }
 
-for (i=0 ; i<10 ; i++) 
-{
-    niza= ( niz[i])
-console.log(niza*3)
-
+// for (i=0 ; i<10 ; i++) 
+// {
+//     niz[i]= niz[i] * 3
    
-}
-
+// }
+// console.log (niz)
 
 // ZADATAK 2 
 
@@ -83,14 +81,65 @@ console.log(niza*3)
 
 // for (i=0 ; i<10 ; i++) 
 // {
-//     niza= ( niz[i])
-
-
-//     if (niza===0) {
-//         console.log ("Broj 0 je takodje paran broj")
-//         continue
-//     }
-//     if (niza%2===0)
-//     console.log (niza, "je parni broj")
-
+//    if (niz[i] % 2 === 0) {
+//        niza+= niz[i]
+//    }
 // }
+// console.log (niza)
+
+//ZADATAK CAS
+// niz1 = []
+// niz2 = [1,2,3,4,5]
+// nizL=niz2.length
+// for (i=0;i<nizL;i++) {
+
+// niz1[i] = niz2.shift(i)
+// }
+// niz2=[]
+// console.log (niz2)
+// console.log(niz1)
+
+//ZADATAK CAS 2
+
+// niz = [
+//     [1,6,3,9],
+//     [8,4,3,1],
+//     [5,1,7,1],
+//     [3,4,2,8]
+// ]
+// nizL=niz.length
+
+// for (i=0; i<nizL; i++) {
+
+//     niz[i][i]=0;
+//     console.log (niz[i])
+// }
+
+
+// DRUGI DEO 
+
+
+niz = [
+    [1,6,3,9],
+    [8,4,3,1],
+    [5,1,7,1],
+    [3,4,2,8]
+]
+nizL=niz.length
+
+for (i=0; i<nizL; i++) {
+
+                            
+    for (j=niz.length-(i+1); j<=niz.length-(i+1); j++) {
+niz[i][j]=0;
+console.log (niz[i])
+    }
+}
+
+
+
+
+
+
+
+
