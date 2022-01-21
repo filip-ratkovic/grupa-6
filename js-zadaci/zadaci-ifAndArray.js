@@ -116,26 +116,29 @@
 // }
 
 
-// DRUGI DEO 
+// // DRUGI DEO 
 
+// console.log("\n")
 
-niz = [
-    [1,6,3,9],
-    [8,4,3,1],
-    [5,1,7,1],
-    [3,4,2,8]
-]
-nizL=niz.length
+// niz2 = [
+//     [1,6,3,9],
+//     [8,4,3,1],
+//     [5,1,7,1],
+//     [3,4,2,8]
+// ]
+// niz2L=niz2.length
 
-for (i=0; i<nizL; i++) {
+// for (i=0; i<niz2L; i++) {
 
                             
-    for (j=niz.length-(i+1); j<=niz.length-(i+1); j++) {
-niz[i][j]=0;
-console.log (niz[i])
-    }
-}
+//     for (j=niz2L-(i+1); j<=niz2L-(i+1); j++) {
+// niz2[i][j]=0;
+// console.log (niz2[i])
+//     }
+// }
 
+
+//CAS 
 
 
 
