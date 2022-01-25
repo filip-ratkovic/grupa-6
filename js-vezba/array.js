@@ -6,5 +6,5 @@ arr=[ 1,5,9,22,453,12,55];
 // console.log("Najmanji broj je ",arr[0])
 // console.log("Najveci broj je ", arr[arr.length-1]);
 
-console.log(Math.max(...arr));
-console.log(Math.min(...arr));
+// console.log(Math.max(...arr));
+// console.log(Math.min(...arr));
