@@ -34,3 +34,35 @@
 // }
 
 // booleanToWord(bool)
+
+// function makeUpperCase(str) {
+//     str().toUpperCase();
+//   }
+
+// function even_or_odd(number) {
+//     if(number%2===0) {
+//       return "Even"
+//     } else if (number%2!==0) {
+//       return "Odd"
+//     }
+//   }
+
+// function between(a, b) {
+//     let arr=[]
+//    for(i=a;i<=b;i++) {
+//        arr.push(i)
+//        }
+//  return arr;
+//    }
+
+dadYearsOld=Number(prompt ("Unesite godine oca"))
+sonYearsOld=Number(prompt ("Unesite godine deteta"))
+
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+    let sum=(dadYearsOld - sonYearsOld * 2)
+    today =2022;
+   godina=today+sum;
+    console.log(godina);
+}
+
+twiceAsOld(dadYearsOld, sonYearsOld)
