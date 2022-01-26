@@ -62,7 +62,8 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
     let sum=(dadYearsOld - sonYearsOld * 2)
     today =2022;
    godina=today+sum;
-    console.log(godina);
+    alert(godina);
 }
 
 twiceAsOld(dadYearsOld, sonYearsOld)
+
