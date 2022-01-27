@@ -75,8 +75,53 @@
 
 
 
-var numbers = [1,2,3,4,5,6,7,8,9,10];
+// var numbers = [1,2,3,4,5,6,7,8,9,10];
 
-console.log(numbers.sort(function(){
-    return Math.random() -0.5
-}));
+// console.log(numbers.sort(function(){
+//     return Math.random() -0.5
+// }));
+
+
+
+
+// var numbers = [1,2,3,4,5,6,7,8,9,10];
+
+// console.log(numbers.sort(function(){
+//     return Math.random() -1
+// }));
+
+// numbers= [10,20,30,40,50,60,70];
+
+// target=50;
+
+// for(var i=0; i<numbers.length; i++) {
+
+//     for(var j=0; j<numbers.length; j++) {
+// if(numbers[i]+numbers[j]===target) {
+// console.log(numbers[i], numbers[j]);
+// }
+
+//     }
+
+// }
+
+// arr=[NaN, 0, 15, false, -22, '',undefined, 47, null];
+// arr1=[]
+
+// for(var i=0; i<arr.length; i++){
+
+//  if(typeof arr[i]==="number" && arr[i]!==0 ) {
+//         arr1.push(arr[i]);
+//     }
+// }
+
+// console.log(arr1);
+
+// a=[1,2,3,4,5]
+// b=[100,200,300]
+
+// if(a.length>b.length){
+//     console.log(a);
+// }else {
+//     console.log(b);
+// }
