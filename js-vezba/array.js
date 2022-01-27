@@ -82,8 +82,6 @@
 // }));
 
 
-
-
 // var numbers = [1,2,3,4,5,6,7,8,9,10];
 
 // console.log(numbers.sort(function(){
@@ -126,11 +124,11 @@
 //     console.log(b);
 // }
 
-var array1 = [1, 2, 3];
-var array2 = [2, 30, 1];
+// var array1 = [1, 2, 3];
+// var array2 = [2, 30, 1];
 
-array3=array1.concat(array2);
+// array3=array1.concat(array2);
 
-array4=[... new Set(array3)];
+// array4=[... new Set(array3)];
 
-console.log(array4);
+// console.log(array4);
