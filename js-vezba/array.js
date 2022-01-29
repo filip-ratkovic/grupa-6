@@ -132,3 +132,12 @@
 // array4=[... new Set(array3)];
 
 // console.log(array4);
+
+
+arr=["go", "google", "twitter", "facebook", "youtube"];
+let biggest = ""
+for(i=0; i<arr.length; i++) {
+    if(arr[i].length>biggest.length) {
+        biggest=arr[i]
+    }
+} console.log(biggest);
