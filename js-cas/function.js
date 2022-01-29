@@ -67,10 +67,10 @@
 
 // twiceAsOld(dadYearsOld, sonYearsOld)
 
-arr=[1,2,0,22,0,53,23];
-sum=0;
-for(i=0; i<arr.length; i++) {
-sum+=arr[i];
-arr2=sum/arr.length
-}
-console.log(arr2);
+// arr=[1,2,0,22,0,53,23];
+// sum=0;
+// for(i=0; i<arr.length; i++) {
+// sum+=arr[i];
+// arr2=sum/arr.length
+// }
+// console.log(arr2);
