@@ -74,3 +74,18 @@
 // arr2=sum/arr.length
 // }
 // console.log(arr2);
+
+
+// let a = 23451;
+// b = 100;
+// function myFunction() {
+//     a = a.toString();
+//     a = a.split("")
+//     a.reverse();
+//     a = a.join("");
+//     a = parseInt(a)
+//     console.log(a + b);
+// }
+
+
+// myFunction();
