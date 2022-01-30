@@ -76,16 +76,47 @@
 // console.log(arr2);
 
 
+
 // let a = 23451;
-// b = 100;
 // function myFunction() {
 //     a = a.toString();
 //     a = a.split("")
 //     a.reverse();
 //     a = a.join("");
 //     a = parseInt(a)
-//     console.log(a + b);
+//     console.log(a);
 // }
 
 
+
+
 // myFunction();
+
+
+//     a=[1,2,3,4,5,33,211];
+//     b=a.filter(myFunction);
+
+//     function myFunction(value){
+//         return value !== 4
+//     }
+// console.log(b);
+
+// a=[1,2,3,4,5,33,211];
+//  b=a.reduce(myFunction);
+
+//  function myFunction(total ,value){
+//    return value + total }
+
+//   console.log(b);
+
+function powersOfTwo(n) {
+    arr = [];
+    for (i = 0; i <= n; i++) {
+        a = 2**i;
+        arr.push(a);
+
+    }
+    console.log(arr);
+}
+
+powersOfTwo(2);
