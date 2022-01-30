@@ -109,14 +109,26 @@
 
 //   console.log(b);
 
-function powersOfTwo(n) {
-    arr = [];
-    for (i = 0; i <= n; i++) {
-        a = 2**i;
-        arr.push(a);
+// function powersOfTwo(n) {
+//     arr = [];
+//     for (i = 0; i <= n; i++) {
+//         a = 2**i;
+//         arr.push(a);
 
-    }
-    console.log(arr);
-}
+//     }
+//     console.log(arr);
+// }
 
-powersOfTwo(2);
+// powersOfTwo(2);
+
+// broj=[2,5,34,1,22];
+// broj2=broj.map(putaDva);
+
+// function putaDva(value) {
+
+//     return value ** 2
+// }
+
+// console.log(broj2);
+
+
