@@ -132,3 +132,35 @@
 // console.log(broj2);
 
 
+// broj=[2,5,34,1,22];
+
+// broj2=broj.filter(brojevi) 
+// function brojevi(value) {
+
+//     return value%2!==0
+// }
+// console.log(broj2);
+
+// broj=[2,5,34,1,22];
+
+// broj2=broj.every(brojevi) 
+// function brojevi(value) {
+
+//     return value%2===0 
+// }
+// console.log(broj2);
+
+// broj=[2,5,34,1,22];
+
+// broj2=broj.find(brojevi) 
+// function brojevi(value) {
+
+//     return value%2!==0 
+// }
+// console.log(broj2);
+
+
+
+// niz=Array.from("123456")
+
+// console.log(niz);
