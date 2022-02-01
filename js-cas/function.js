@@ -165,12 +165,66 @@
 
 // console.log(niz);
 
-function powersOfTwo(n){
-    arr = [];
-      for (i = 0; i <= n; i++) {
-          a = 2**i;
-          arr.push(a);
+
+
+
+// function powersOfTwo(n){
+//     arr = [];
+//       for (i = 0; i <= n; i++) {
+//           arr.push(2**i);
+//       }
+//     return arr
+//   }  
+// tri=powersOfTwo(13);
+// console.log(tri);
+
+
+
+// const reverseSeq = n => {
+//     arr = [];
+//     if (n < 0) {
+//         return "Unesite pozitivan broj"
+//     }
+//     for (var i = n; i > 0; i--) {
+//         arr.push(i)
+        
+
+//         }
+//             return arr;
+//         };
+
+//         console.log(reverseSeq(6))
+//
+//
+// const reverseSeq = n => {
+//     arr = [];
+//     if (n < 0) {
+//         return;
+//     }
+//     for (var i = n; i > 0; i--) {
+//         arr.push(i)
+        
+
+//         }
+//             return arr;}
+
+
+
+function pillars(num_pill, dist, width) {
+
+   if(num_pill<=1) {
+      return 0;
+   }
+   if(dist<10 || dist>30) {
+      return;
+   }
+   if (width<10 || width>50) {
+      return;
+   }
+   
+      return (num_pill-1)*(dist*100+width)-width
+   }
+    
   
-      }
-    return arr
-  }  
+
+  console.log(pillars(2,20,25));
