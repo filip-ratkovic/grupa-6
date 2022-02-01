@@ -164,3 +164,13 @@
 // niz=Array.from("123456")
 
 // console.log(niz);
+
+function powersOfTwo(n){
+    arr = [];
+      for (i = 0; i <= n; i++) {
+          a = 2**i;
+          arr.push(a);
+  
+      }
+    return arr
+  }  
