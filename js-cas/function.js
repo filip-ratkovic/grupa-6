@@ -187,7 +187,7 @@
 //     }
 //     for (var i = n; i > 0; i--) {
 //         arr.push(i)
-        
+
 
 //         }
 //             return arr;
@@ -203,28 +203,53 @@
 //     }
 //     for (var i = n; i > 0; i--) {
 //         arr.push(i)
-        
+
 
 //         }
 //             return arr;}
 
 
 
-function pillars(num_pill, dist, width) {
+// function pillars(num_pill, dist, width) {
 
-   if(num_pill<=1) {
-      return 0;
-   }
-   if(dist<10 || dist>30) {
-      return;
-   }
-   if (width<10 || width>50) {
-      return;
-   }
-   
-      return (num_pill-1)*(dist*100+width)-width
-   }
-    
-  
+//    if(num_pill<=1) {
+//       return 0;
+//    }
+//    if(dist<10 || dist>30) {
+//       return;
+//    }
+//    if (width<10 || width>50) {
+//       return;
+//    }
 
-  console.log(pillars(2,20,25));
+//       return (num_pill-1)*(dist*100+width)-width
+//    }
+
+
+
+//   console.log(pillars(2,20,25));
+
+
+
+
+// function symmetricPoint(p, q) {
+//    if (p > q) {
+//       t = p - q;
+//       p1 = q - t;
+//       return p1;
+//    }
+//    if (p < q) {
+//       t = q - p;
+//       p1 = q + t;
+//       return p1;
+//    }
+// }
+
+// console.log(symmetricPoint(16, 22));
+
+
+function symmetricPoint(p, q) {
+    return [2*q[0] - p[0], 2*q[1]  - p[1]]; 
+}
+
+console.log(symmetricPoint([2,2], [-1,2]));
