@@ -248,8 +248,17 @@
 // console.log(symmetricPoint(16, 22));
 
 
-function symmetricPoint(p, q) {
-    return [2*q[0] - p[0], 2*q[1]  - p[1]]; 
-}
+// function symmetricPoint(p, q) {
+//     return [2*q[0] - p[0], 2*q[1]  - p[1]]; 
+// }
 
-console.log(symmetricPoint([2,2], [-1,2]));
+// console.log(symmetricPoint([2,2], [-1,2]));
+
+
+function iceBrickVolume(radius, bottleLength, rimLength) {
+    visina=bottleLength-rimLength;
+    zapremina=visina*(2*radius**2)
+    return zapremina;
+   }
+
+  console.log(iceBrickVolume(1,10,2));
