@@ -275,13 +275,34 @@
 //////// ARROW FUNCTION /////////////////////////////////////////////////////////////////////////////
 
 
-function inverseSlice(items, a, b) {
-   c=b-a;
- items.splice(a,c);
-   
-    return items ;
-  }
+// function inverseSlice(items, a, b) {
+//    c=b-a;
+//  items.splice(a,c);
 
-  sl=inverseSlice([1,2,3,4,5,6],2,4);
+//     return items ;
+//   }
 
-  console.log(sl);
+//   sl=inverseSlice([1,2,3,4,5,6],2,4);
+
+//   console.log(sl);
+
+function stray(numbers) {
+    num = 0;
+    if (numbers[0] !== numbers[1] && numbers[0] !== numbers[2]) {
+        num = numbers[0];
+    }
+    if (numbers[numbers.length - 1] !== numbers[numbers.length - 2] &&
+        numbers[numbers.length - 1] !== numbers[numbers.length - 3]) {
+        num = numbers[numbers.length - 1]
+    }
+    for (let i = 1; i < numbers.length - 1; i++) {
+        if (numbers[i] !== numbers[i - 1] && numbers[i] !== numbers[i + 1]) {
+            num = numbers[i];
+            break;
+        }
+    }
+    return num;   
+}
+
+console.log(stray([ 1, 1,2, 1,1]));
+
