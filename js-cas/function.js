@@ -270,3 +270,18 @@
 // }
 
 // console.log(symmetricPoint([2,2], [-1,2]));
+
+
+//////// ARROW FUNCTION /////////////////////////////////////////////////////////////////////////////
+
+
+function inverseSlice(items, a, b) {
+   c=b-a;
+ items.splice(a,c);
+   
+    return items ;
+  }
+
+  sl=inverseSlice([1,2,3,4,5,6],2,4);
+
+  console.log(sl);
