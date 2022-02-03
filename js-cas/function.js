@@ -219,8 +219,7 @@
 //       return;
 //    }
 //    if (width<10 || width>50) {
-//       return;
-//    }
+//    
 
 //       return (num_pill-1)*(dist*100+width)-width
 //    }
@@ -255,10 +254,19 @@
 // console.log(symmetricPoint([2,2], [-1,2]));
 
 
-function iceBrickVolume(radius, bottleLength, rimLength) {
-    visina=bottleLength-rimLength;
-    zapremina=visina*(2*radius**2)
-    return zapremina;
-   }
+// function iceBrickVolume(radius, bottleLength, rimLength) {
+//     visina=bottleLength-rimLength;
+//     zapremina=visina*(2*radius**2)
+//     return zapremina;
+//    }
 
-  console.log(iceBrickVolume(1,10,2));
+//   console.log(iceBrickVolume(1,10,2));
+
+
+
+
+// function symmetricPoint(p, q) {
+//     return [(q[0] + p[0])/2, (q[1] + p[1])/2]; 
+// }
+
+// console.log(symmetricPoint([2,2], [-1,2]));
