@@ -323,22 +323,33 @@
 
 // 1,2,6,4,5,2                5,2,6,4,1,2. 
 
-function nbYear(p0, percent, aug, p) {
-  percent=percent/100;
-  count=0;
-    while (p0<p) {
+// function nbYear(p0, percent, aug, p) {
+//   percent=percent/100;
+//   count=0;
+//     while (p0<p) {
 
-p0=p0+p0*percent+aug;
-count=count+1;
+// p0=p0+p0*percent+aug;
+// count=count+1;
 
-   }
-   return count;
+//    }
+//    return count;
+// }
+
+// console.log(nbYear(1000,2,50,1200));
+
+
+
+const removeConsecutiveDuplicates = s => {
+arr=s.split(" ");
+arr2=[];
+for (var i=0; i<s.length; i++) {
+    if(arr[i] !==arr [i+1]) {
+        arr2.push(arr[i]);
+    }
+} arr2=arr2.join(" ");
+
+
+return arr2
 }
 
-console.log(nbYear(1000,2,50,1200));
-
-
-
-
-
-
+console.log(removeConsecutiveDuplicates("alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta"));
