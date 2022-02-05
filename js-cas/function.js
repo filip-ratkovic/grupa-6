@@ -339,17 +339,60 @@
 
 
 
-const removeConsecutiveDuplicates = s => {
-arr=s.split(" ");
-arr2=[];
-for (var i=0; i<s.length; i++) {
-    if(arr[i] !==arr [i+1]) {
-        arr2.push(arr[i]);
-    }
-} arr2=arr2.join(" ");
+// const removeConsecutiveDuplicates = s => {
+// arr=s.split(" ");
+// arr2=[];
+// for (var i=0; i<s.length; i++) {
+//     if(arr[i] !==arr [i+1]) {
+//         arr2.push(arr[i]);
+//     }
+// } arr2=arr2.join(" ");
 
 
-return arr2
-}
+// return arr2
+// }
 
-console.log(removeConsecutiveDuplicates("alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta"));
+// console.log(removeConsecutiveDuplicates("alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta"));
+
+
+
+
+
+
+// function myFunction(array) {
+//     for (var i = 0; i < array.length; i++) {
+//         for (var j = i + 1; j > 0; j--) {
+//             if (array[j] < array[j - 1]) {
+
+//                 //  [array[j], array[j - 1]]    =   [ array[j - 1], array[j]]
+//                 pomVar = array[j];
+//                 array[j] = array[j - 1];
+//                 array[j - 1] = pomVar;
+
+
+//             }
+//         }
+//     }return array;
+// }
+
+//     console.log(myFunction([9, 2, 5, 2, 8, 3, 1]));
+
+
+
+
+
+
+
+
+
+// function sortArray(array) {
+//   oddArr=[];
+//   evenArr=[];
+//   rez=[];
+
+//   for(var i=0; i<array.length; i++) {
+//       if()
+//   }
+// }
+
+// console.log(sortArray([1,2,3,4,5,6,7,8,9]))
