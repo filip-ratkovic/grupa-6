@@ -308,19 +308,34 @@
 
 
 
-function largestPairSum(numbers) {
-numbers.sort(function(a, b) {return b - a});
-    a = numbers[0];
-    b = numbers[1];
-    c = a + b;
-    return c;
+// function largestPairSum(numbers) {
+// numbers.sort(function(a, b) {return b - a});
+//     a = numbers[0];
+//     b = numbers[1];
+//     c = a + b;
+//     return c;
+// }
+
+
+// console.log(largestPairSum([1, 2, 5, 3, 23, 11, 21]));
+
+
+
+// 1,2,6,4,5,2                5,2,6,4,1,2. 
+
+function nbYear(p0, percent, aug, p) {
+  percent=percent/100;
+  count=0;
+    while (p0<p) {
+
+p0=p0+p0*percent+aug;
+count=count+1;
+
+   }
+   return count;
 }
 
-
-console.log(largestPairSum([1, 2, 5, 3, 23, 11, 21]));
-
-
-
+console.log(nbYear(1000,2,50,1200));
 
 
 
