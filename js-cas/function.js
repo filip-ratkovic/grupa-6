@@ -379,31 +379,29 @@
 
 
 
-function openOrSenior(data) {
-    for (i = 0; i < data.length; i++) {
+// function openOrSenior(data) {
+//     for (i = 0; i < data.length; i++) {
 
-        if (data[i][0] >= 55 && data[i][1] > 7) {
-            data[i] = "Senior";
+//         if (data[i][0] >= 55 && data[i][1] > 7) {
+//             data[i] = "Senior";
 
-        } else {
-            data[i] = "Open"
-        }
-        
-    }return data
+//         } else {
+//             data[i] = "Open"
+//         }
 
-}
+//     }return data
 
-
-
-
-// function sortArray(array) {
-//   oddArr=[];
-//   evenArr=[];
-//   rez=[];
-
-//   for(var i=0; i<array.length; i++) {
-//       if()
-//   }
 // }
 
-// console.log(sortArray([1,2,3,4,5,6,7,8,9]))
+
+
+function addBinary(a, b) {
+  
+    return (a+b).toString(2);
+    } 
+
+
+
+console.log(addBinary(3, 5));
+
+
