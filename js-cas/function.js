@@ -395,13 +395,18 @@
 
 
 
-function addBinary(a, b) {
+// function addBinary(a, b) {
+
+//     return (a+b).toString(2);
+//     } 
+
+
+
+// console.log(addBinary(3, 5));
+
+
+function lastDigit(n, d) {
   
-    return (a+b).toString(2);
-    } 
-
-
-
-console.log(addBinary(3, 5));
+}
 
 
