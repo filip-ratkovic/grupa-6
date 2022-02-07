@@ -406,7 +406,19 @@
 
 
 function lastDigit(n, d) {
-  
+    n = n.toString().split("");
+    for(i=0; i<n.length; i++) {
+        n[i]=Number(n[i])
+    }
+    if (d > n.length) {
+        return n
+    }
+    if (d <= 0) {
+        return []
+    }
+    n = n.slice(n.length - d, n.length)
+    return n
 }
+console.log(lastDigit(54321, 2));
 
 
