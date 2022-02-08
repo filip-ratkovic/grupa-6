@@ -434,3 +434,12 @@
 
 
 
+const cars = [
+    'Mercedes',
+    'BMW',
+    'Audi',
+    'Lamburgini'
+  ];
+  
+  console.log(cars.map(car => car.length));
+ 
