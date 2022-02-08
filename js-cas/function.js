@@ -434,12 +434,20 @@
 
 
 
-const cars = [
-    'Mercedes',
-    'BMW',
-    'Audi',
-    'Lamburgini'
-  ];
+// const cars = [
+//     'Mercedes',
+//     'BMW',
+//     'Audi',
+//     'Lamburgini'
+//   ];
   
-  console.log(cars.map(car => car.length));
+//   console.log(cars.map(car => car.length));
  
+
+var student = {
+    name : "David Rayy",
+    sclass : "VI",
+    rollno : 12 };
+
+    console.log(Object.values(student));
+    console.log(student.name,student.sclass,student.rollno);
