@@ -422,12 +422,15 @@
 // console.log(lastDigit(54321, 2));
 
 
-function createPhoneNumber(numbers){
-   prvi=numbers.slice(0,3).join('');
-   drugi=numbers.slice(3,6).join('');
-   treci=numbers.slice(6,numbers.length).join('');
-   broj="("+prvi+")"+ " "+drugi+"-"+treci
-    return broj
+// function createPhoneNumber(numbers){
+//    prvi=numbers.slice(0,3).join('');
+//    drugi=numbers.slice(3,6).join('');
+//    treci=numbers.slice(6,numbers.length).join('');
+//    broj="("+prvi+")"+ " "+drugi+"-"+treci
+//     return broj
 
-}
-console.log(createPhoneNumber([0,6,4,5,5,4,3,3,2,2]));
+// }
+// console.log(createPhoneNumber([0,6,4,5,5,4,3,3,2,2]));
+
+
+
