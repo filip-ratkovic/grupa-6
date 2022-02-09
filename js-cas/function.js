@@ -454,22 +454,33 @@
 
 
 
-var library = [ 
-    {
-        author: 'Bill Gates',
-        title: 'The Road Ahead',
-        readingStatus: true
-    },
-    {
-        author: 'Steve Jobs',
-        title: 'Walter Isaacson',
-        readingStatus: true
-    },
-    {
-        author: 'Suzanne Collins',
-        title:  'Mockingjay: The Final Book of The Hunger Games', 
-        readingStatus: false
-    }];
+// var library = [ 
+//     {
+//         author: 'Bill Gates',
+//         title: 'The Road Ahead',
+//         readingStatus: true
+//     },
+//     {
+//         author: 'Steve Jobs',
+//         title: 'Walter Isaacson',
+//         readingStatus: true
+//     },
+//     {     
+//         author: 'Suzanne Collins',
+//         title:  'Mockingjay: The Final Book of The Hunger Games', 
+//         readingStatus: false
+//     }];
 
-    console.log(library[0],library[1],library[2]);
-    console.log(library[0].author);
+//     console.log(library[0],library[1],library[2]);
+//     console.log(library[0].author);
+
+
+
+var student = {
+    name : "David Rayy",
+    sclass : "VI",
+    rollno : 12 };
+    
+
+    console.log(student.name.length);
+    console.log(Object.values(student).length);
