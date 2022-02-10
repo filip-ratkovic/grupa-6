@@ -476,11 +476,12 @@
 
 
 
-var student = {
-    name : "David Rayy",
-    sclass : "VI",
-    rollno : 12 };
+// var student = {
+//     name : "David Rayy",
+//     sclass : "VI",
+//     rollno : 12 };
     
 
-    console.log(student.name.length);
-    console.log(Object.values(student).length);
+//     console.log(student.name.length);
+//     console.log(Object.values(student).length);
+
