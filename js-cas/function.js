@@ -454,25 +454,34 @@
 
 
 
-// var library = [ 
-//     {
-//         author: 'Bill Gates',
-//         title: 'The Road Ahead',
-//         readingStatus: true
-//     },
-//     {
-//         author: 'Steve Jobs',
-//         title: 'Walter Isaacson',
-//         readingStatus: true
-//     },
-//     {     
-//         author: 'Suzanne Collins',
-//         title:  'Mockingjay: The Final Book of The Hunger Games', 
-//         readingStatus: false
-//     }];
+var library = [ 
+    {
+        author: 'Bill Gates',        
+        title: 'The Road Ahead',
+        readingStatus: true
+    },
+    {
+        author: 'Steve Jobs',
+        title: '',
+        readingStatus: true
+    },
+    {     
+        author: 'Suzanne Collins',
+        title:  'Mockingjay: The Final Book of The Hunger Games', 
+        readingStatus: false
+    }];
 
-//     console.log(library[0],library[1],library[2]);
-//     console.log(library[0].author);
+
+    for (i=0; i<library.length; i++) {
+       if(!library[i].title) {
+           console.log("Knjiga nije odabrana");
+       }
+         else  if (library[i].readingStatus) {
+            console.log("Procitao");
+        } else {
+            console.log("Nije procitao");
+        }
+    }
 
 
 
