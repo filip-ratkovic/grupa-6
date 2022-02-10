@@ -454,34 +454,34 @@
 
 
 
-var library = [ 
-    {
-        author: 'Bill Gates',        
-        title: 'The Road Ahead',
-        readingStatus: true
-    },
-    {
-        author: 'Steve Jobs',
-        title: '',
-        readingStatus: true
-    },
-    {     
-        author: 'Suzanne Collins',
-        title:  'Mockingjay: The Final Book of The Hunger Games', 
-        readingStatus: false
-    }];
+// var library = [ 
+//     {
+//         author: 'Bill Gates',        
+//         title: 'The Road Ahead',
+//         readingStatus: true
+//     },
+//     {
+//         author: 'Steve Jobs',
+//         title: '',
+//         readingStatus: true
+//     },
+//     {     
+//         author: 'Suzanne Collins',
+//         title:  'Mockingjay: The Final Book of The Hunger Games', 
+//         readingStatus: false
+//     }];
 
 
-    for (i=0; i<library.length; i++) {
-       if(!library[i].title) {
-           console.log("Knjiga nije odabrana");
-       }
-         else  if (library[i].readingStatus) {
-            console.log("Procitao");
-        } else {
-            console.log("Nije procitao");
-        }
-    }
+//     for (i=0; i<library.length; i++) {
+//        if(!library[i].title) {
+//            console.log("Knjiga nije odabrana");
+//        }
+//          else  if (library[i].readingStatus) {
+//             console.log("Procitao");
+//         } else {
+//             console.log("Nije procitao");
+//         }
+//     }
 
 
 
@@ -493,4 +493,70 @@ var library = [
 
 //     console.log(student.name.length);
 //     console.log(Object.values(student).length);
+
+
+
+
+
+// class Car {
+//     constructor(name,year) {
+//         this.name = name;
+//         this.year = year;
+//     }
+// age() {
+//     let date = new Date();
+//     return date.getFullYear() - this.year;
+// }
+// }
+
+
+// c1= new Car("audi", 2010);
+
+// console.log(c1.age());
+// console.log(c1.name);
+
+
+
+
+// class Cat {
+//     constructor (name,age,color,kg) {
+//         this.name = name;
+//         this.age = age;
+//         this.color = color;
+//         this.kg = kg;
+//     }
+   
+    
+// }
+
+
+// macka= new Cat("Garfild",20,"Orange",28);
+// console.log(macka);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var s = {
+//     name : "David Rayy", }
+
+
+// s[Object.values(s)] = Object.keys(s).toString()
+
+// console.log(s);
+
+
+
+
+
+
 

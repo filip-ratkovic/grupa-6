@@ -9,3 +9,13 @@
 
 
 
+var a=26;
+
+age = (a>18) ? "Punoletan" : "Maloletan";
+console.log(age);
+
+
+
+
+
+
