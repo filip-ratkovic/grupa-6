@@ -440,9 +440,9 @@
 //     'Audi',
 //     'Lamburgini'
 //   ];
-  
+
 //   console.log(cars.map(car => car.length));
- 
+
 
 // var student = {
 //     name : "David Rayy",
@@ -489,7 +489,7 @@
 //     name : "David Rayy",
 //     sclass : "VI",
 //     rollno : 12 };
-    
+
 
 //     console.log(student.name.length);
 //     console.log(Object.values(student).length);
@@ -525,13 +525,39 @@
 //         this.color = color;
 //         this.kg = kg;
 //     }
-   
-    
+
+
 // }
 
 
 // macka= new Cat("Garfild",20,"Orange",28);
 // console.log(macka);
+
+
+// var library = [
+//     {
+//         author: 'Bill Gates',
+//         title: 'The Road Ahead',
+//         readingStatus: true
+//     },
+//     {
+//         author: 'Steve Jobs',
+//         title: '',
+//         readingStatus: true
+//     },
+//     {
+//         author: 'Suzanne Collins',
+//         title: 'Mockingjay: The Final Book of The Hunger Games',
+//         readingStatus: false
+//     }];
+
+
+
+// for (i = 0; i < library.length; i++) {
+//     !library[i].title ? console.log("Nije odabrao knjigu")
+//         : library[i].readingStatus ? console.log("Procitao je  knjigu")
+//             : console.log("Nije procitao knjigu")
+// }
 
 
 
