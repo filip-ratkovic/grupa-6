@@ -2,7 +2,7 @@
 // unos=prompt("Unesite Vase ime")
 
 // function ime(name) {
-//     console.log("Vase ime je",name);
+//     consolelog("Vase ime je",name);
 // }
 
 
@@ -12,7 +12,7 @@
 
 // function bmi(visina,tezina) {
 // bmi=tezina/visina**2;
-// if(bmi<=18.5) {
+// if(bmi<=185) {
 // return "Underweight"
 // } else if (bmi<=25) {
 //     return "Normal"
@@ -581,8 +581,27 @@
 // console.log(s);
 
 
+// Cat = {
+
+//         tiredness : 0,
+//         hunger : 0,
+//         lonliness : 0,
+//         happiness :0,
+// }
+// w3doocs
+
+// console.log(Object.keys(Cat).includes("name"));
+// call()
 
 
 
+data= {
+    a:1,
+    b:2,
+    c:3
+}
 
+data2=Object.entries(data)
+
+console.log(data2);
 

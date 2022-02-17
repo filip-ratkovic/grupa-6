@@ -46,5 +46,61 @@
 // console.log(message);
 
 
+// cars = {
+//     color: "black",
+//     year: 2011,
+//     hp: 140,
+// }
+
+// car=["audi","bmw","mercedes","skoda"];
+
+
+// let txt = "";
+// for (let x in car) {
+//   txt +=  car[x] + "\n";
+// }
+
+// console.log(txt);
+
+
+// cars = {
+//     color: "black",
+//     year: 2011,
+//     hp: 140,
+// }
+
+// car=["audi","bmw","mercedes","skoda"];
+
+// rec="JavaScript"
+
+// for (let x of car) {
+//    x.length>3 ? console.log(x) : ''
+// }
+
+
+
+cars = {
+    color: "black",
+    year: 2011,
+    hp: 140,
+}
+
+car=["audi","bmw","mercedes","skoda"];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
