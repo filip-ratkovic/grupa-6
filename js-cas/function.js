@@ -595,13 +595,76 @@
 
 
 
-data= {
-    a:1,
-    b:2,
-    c:3
-}
+// data= {
+//     a:1,
+//     b:2,
+//     c:3
+// }
+// console.log(Object.entries(data));
 
-data2=Object.entries(data)
 
-console.log(data2);
+// data= {
+//     a:1,
+//     b:2
+// }
+
+// function funkcija (data,prop) {
+// delete data[prop];
+// return data
+// }
+
+// funkcija({a:1, b:2}, "b")
+
+
+
+
+// var library = [
+//     {
+//         author: 'Bill Gates',
+//         title: 'The Road Ahead',
+//         readingStatus: true,
+//         age: 29
+//     },
+//     {
+//         author: 'Steve Jobs',
+//         title: '',
+//         readingStatus: true,
+//         age: 14
+//     },
+//     {
+//         author: 'Suzanne Collins',
+//         title: 'Mockingjay: The Final Book of The Hunger Games',
+//         readingStatus: false,
+//         age: 25
+//     },
+
+//     {
+//         author: 'Bill Gates',
+//         title: 'The Road Ahead',
+//         readingStatus: true,
+//         age: 19
+//     },
+
+//     {
+//         author: 'Bill Gates',
+//         title: 'The Road Ahead',
+//         readingStatus: true,
+//         age: 12
+//     }];
+
+
+
+// function age() {
+//     res = []
+//     for (i = 0; i < library.length; i++) {
+//         if (library[i].age >= 18) {
+//             res.push(library[i])
+//         }
+//     }
+
+//     console.log(res);
+
+// }
+
+// age() 
 
