@@ -92,19 +92,19 @@
 
 
 
-  const person2 = {
-    firstName: "John",
-    lastName: "Doe",
-    birthday : {
-        day:28,
-        month : "January",
-        year : "1995"
-    },
-    fullname : function () {
-        return this.firstName + " " + this.lastName
-    }
-  };
-  
+//   const person2 = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     birthday : {
+//         day:28,
+//         month : "January",
+//         year : "1995"
+//     },
+//     fullname : function () {
+//         return this.firstName + " " + this.lastName
+//     }
+//   }; 
+
 
 
 
