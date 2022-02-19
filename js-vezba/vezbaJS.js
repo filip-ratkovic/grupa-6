@@ -123,28 +123,48 @@
 // console.log(car);
 // console.log(car.age());
 
-class Person {
-    constructor(name,surname, age, eyeColor) {
-        this.name = name;
-        this.surname = surname;
-        this.age = age;
-        this.eyeColor = eyeColor;
-        this.fullname = function () {
-          return   this.name + " " + this.surname
-        }
-    }
+// class Person {
+//     constructor(name,surname, age, eyeColor) {
+//         this.name = name;
+//         this.surname = surname;
+//         this.age = age;
+//         this.eyeColor = eyeColor;
+//         this.fullname = function () {
+//           return   this.name + " " + this.surname
+//         }
+//     }
   
-}
-Person.prototype.weight = 90;
-Dad= new Person("John","Lennon",52,"Green");
-Dad.height = "180cm"
-console.log(Dad);
-console.log(Dad.weight);
+// }
+// Person.prototype.weight = 90;
+// Dad= new Person("John","Lennon",52,"Green");
+// Dad.height = "180cm"
+// console.log(Dad);
+// console.log(Dad.weight);
+
+
+// letters = new Set(["a", "b", "c"])
+// letters.add("d")
+// letters.add("e", "e", "d")
+// console.log(letters);
+
+// let txt="";
+
+// letters.forEach(function(value) {
+
+// txt += " " + value.toUpperCase()
+
+// })
+
+// console.log(txt);
 
 
 
 
+// function age(number) {
+// (number>=18) ? console.log("Punoletan"): console.log("Maloletan")
 
+// }
 
+// age(122)
 
 
