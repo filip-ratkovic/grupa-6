@@ -107,8 +107,39 @@
 
 
 
+// class Car {
 
+//     constructor(name, year) {
+//         this.name = name;
+//         this.year = year;
+//     }
+// age () {
+//    let date = new Date();
+//     return date.getFullYear() - this.year;
+// }
+// }
 
+// let car = new Car("Toyota", 2013);
+// console.log(car);
+// console.log(car.age());
+
+class Person {
+    constructor(name,surname, age, eyeColor) {
+        this.name = name;
+        this.surname = surname;
+        this.age = age;
+        this.eyeColor = eyeColor;
+        this.fullname = function () {
+          return   this.name + " " + this.surname
+        }
+    }
+  
+}
+Person.prototype.weight = 90;
+Dad= new Person("John","Lennon",52,"Green");
+Dad.height = "180cm"
+console.log(Dad);
+console.log(Dad.weight);
 
 
 
