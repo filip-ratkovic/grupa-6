@@ -19,3 +19,5 @@ function bmi(tezina, visina) {
 
  console.log(bmi(90,1.9));
 
+
+ 
