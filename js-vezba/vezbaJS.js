@@ -78,20 +78,33 @@
 // }
 
 
-
-cars = {
-    color: "black",
-    year: 2011,
-    hp: 140,
-}
-
-car=["audi","bmw","mercedes","skoda"];
+// const person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     age: 50,
+//     eyeColor: "blue"
+//   };
 
 
+//   delete person["eyeColor"]
+
+//   console.log(person);
 
 
 
-
+  const person2 = {
+    firstName: "John",
+    lastName: "Doe",
+    birthday : {
+        day:28,
+        month : "January",
+        year : "1995"
+    },
+    fullname : function () {
+        return this.firstName + " " + this.lastName
+    }
+  };
+  
 
 
 
