@@ -669,3 +669,15 @@
 // age() 
 
 
+// const data = { a: 1222, b: undefined };
+// const data2 = { a: undefined};
+
+
+// function emptyObject(obj) {
+// if ( Object.values(obj[0])===false)    {
+//     console.log("True");
+// } else { console.log("False");}
+
+// }
+
+// emptyObject(data2)
