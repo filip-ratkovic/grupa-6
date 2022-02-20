@@ -26,20 +26,7 @@
 //        arr.push(i)
 //        }
 //  return arr;
-//    }
-
-// dadYearsOld=Number(prompt ("Unesite godine oca"))
-// sonYearsOld=Number(prompt ("Unesite godine deteta"))
-
-// function twiceAsOld(dadYearsOld, sonYearsOld) {
-//     let sum=(dadYearsOld - sonYearsOld * 2)
-//     today =2022;
-//    godina=today+sum;
-//     alert(godina);
-// }
-
-// twiceAsOld(dadYearsOld, sonYearsOld)
-
+//    }}
 // arr=[1,2,0,22,0,53,23];
 // sum=0;
 // for(i=0; i<arr.length; i++) {
@@ -654,3 +641,11 @@
 // }
 
 // emptyObject(data2)
+
+
+
+// sumArr = (a,b) => {
+//     return a+b
+// }
+
+// console.log(sumArr(arr));
