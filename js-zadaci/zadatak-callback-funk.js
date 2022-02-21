@@ -33,3 +33,32 @@ function doLaundry() {
 
 
 doLaundry()
+
+
+
+// function doLaundry() {
+
+//     console.log("done");
+
+//     dry(function() {
+//         console.log("dry2222");
+//         fold(function() {})
+//         wash(function() {
+//             fold(function() {
+//                 console.log("done done2");
+//             })
+//         })
+//     })
+//   }
+
+
+//  function doLaundry() {
+
+//  wash(() => {
+//     dry(() => {
+//        fold(() => {
+//           console.log('Done')
+//        })
+//     })
+//  })
+//  }
