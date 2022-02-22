@@ -169,28 +169,6 @@
 //             return arr;}
 
 
-
-// function pillars(num_pill, dist, width) {
-
-//    if(num_pill<=1) {
-//       return 0;
-//    }
-//    if(dist<10 || dist>30) {
-//       return;
-//    }
-//    if (width<10 || width>50) {
-//    
-
-//       return (num_pill-1)*(dist*100+width)-width
-//    }
-
-
-
-//   console.log(pillars(2,20,25));
-
-
-
-
 // function symmetricPoint(p, q) {
 //    if (p > q) {
 //       t = p - q;
@@ -232,19 +210,6 @@
 // console.log(symmetricPoint([2,2], [-1,2]));
 
 
-//////// ARROW FUNCTION /////////////////////////////////////////////////////////////////////////////
-
-
-// function inverseSlice(items, a, b) {
-//    c=b-a;
-//  items.splice(a,c);
-
-//     return items ;
-//   }
-
-//   sl=inverseSlice([1,2,3,4,5,6],2,4);
-
-//   console.log(sl);
 
 // function stray(numbers) {
 //     num = 0;
@@ -280,8 +245,6 @@
 // console.log(largestPairSum([1, 2, 5, 3, 23, 11, 21]));
 
 
-
-// 1,2,6,4,5,2                5,2,6,4,1,2. 
 
 // function nbYear(p0, percent, aug, p) {
 //   percent=percent/100;
@@ -649,3 +612,58 @@
 // }
 
 // console.log(sumArr(arr));
+
+// function isDivisible(n, x, y) {
+// (n%x===0 && n%y===0) ? console.log(true) : console.log(false)
+
+// }
+
+// isDivisible(500,2,250)
+
+
+// console.log(myFunction(5));
+
+// function myFunction(y) {
+//   return y * y;
+// }
+
+// (function () {
+//     console.log("funkcija");
+// })();
+
+
+// (function (a,b) {
+//    console.log(a*b);
+//  })(2,3);
+
+
+// x= (a,b) => a*b;
+
+// console.log(x(3,4));
+
+
+// const person = {
+//     fullname (city,country) {
+//      return   this.name + " " + this.lastname + " from " + city + ", " + country;
+//     }
+// }
+
+// let person1={
+//     name: "John",
+//     lastname: "Wick"
+// }
+
+// console.log(person.fullname.apply(person1,["NP", "Srbija"]));   //APPLY
+// console.log(person.fullname.call(person1, "Bg","Srbija"));      //CALL
+
+// arr=[1,2,3,4,5,6,7];
+
+// console.log(Math.max.apply("",arr));
+
+
+
+
+
+
+
+
