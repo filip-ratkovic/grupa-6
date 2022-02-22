@@ -663,6 +663,167 @@
 
 
 
+// const person = {
+//     name: "Ted",
+//     lastname: "Smith",
+//     fullname () {
+//      return   this.name + " " + this.lastname;
+//     }
+// }
+
+// let person1={
+//     name: "John",
+//     lastname: "Wick"
+// }
+
+// fullname=person.fullname.bind(person1)                   //BIND 
+// console.log(fullname());
+
+
+// person = {
+//     name: "John",
+//     lastname: "Wick",
+//     fullname: function() {
+//         console.log(this.name + " " + this.lastname);  
+//     }
+// }
+
+// let fullname=person.fullname.bind(person);
+// setTimeout(fullname,1500)
+
+
+
+// function a (args) {
+//     console.log("asfdsgdg");
+//     args()
+// }
+
+// function hello(){
+//     console.log("hello");
+// }
+
+// a(hello)
+
+
+// const  arr=[1,2,3,4,5]
+// function mojafunk() {
+//     console.log("helo");
+// }
+
+// arr.forEach(mojafunk)
+
+// arr=[1,2,3,4,5]
+// const mojafunk = (a,b,c) => {
+//     console.log(a); //value th vrednost
+//     console.log(b); // indeksi
+//     console.log(c); // ne treba , prikazuje ceo array, x 5 
+// }
+
+// arr=[37,28,14,6,19,55,11];
+
+// const kvadrat = (a) => {
+//     console.log(a**2);
+// }
+
+// arr.forEach(kvadrat)
+
+// arr=[37,28,14,6,19,55,11];
+
+// const kvadrat = (a,b) => {
+//     console.log(a ,"je na poziciji",b);
+// }
+
+// arr.forEach(kvadrat)
+
+
+
+
+
+// var library = [
+//     {
+//         author: 'Bill Gates',
+//         title: 'The Road Ahead',
+//         readingStatus: true,
+//         age: 29
+//     },
+//     {
+//         author: 'Steve Jobs',
+//         title: '',
+//         readingStatus: true,
+//         age: 14
+//     },
+//     {
+//         author: 'Suzanne Collins',
+//         title: 'Mockingjay: The Final Book of The Hunger Games',
+//         readingStatus: false,
+//         age: 25
+//     },
+
+//     {
+//         author: 'Bill Gates',
+//         title: 'The Road Ahead',
+//         readingStatus: true,
+//         age: 19
+//     },
+
+//     {
+//         author: 'Bill Gates',
+//         title: 'The Road Ahead',
+//         readingStatus: true,
+//         age: 12
+//     }];
+
+
+
+
+// const people = (a,b) => {
+//     console.log(a.author);  //               
+// }
+
+
+// library.forEach(people)
+
+
+// arr=[1,34,675,8,3245,54,31,66,9]
+// evenArr=[]
+
+
+// arr.forEach((a)=>{
+//     if(a%2===0) {
+//         evenArr.push(el)
+//     }
+// });
+// console.log(evenArr);
+
+
+
+
+// arr = [false, 1, 5, 8, "sadf", null, false, NaN, 0, ""];
+// num = 0
+
+// arr.forEach((a) => {
+//     if (!a) {
+//         num++
+//     } 
+// }
+// )
+// console.log(num);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
