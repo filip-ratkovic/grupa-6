@@ -790,7 +790,7 @@
 
 // arr.forEach((a)=>{
 //     if(a%2===0) {
-//         evenArr.push(el)
+//         evenArr.push(a)
 //     }
 // });
 // console.log(evenArr);
@@ -808,23 +808,4 @@
 // }
 // )
 // console.log(num);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
