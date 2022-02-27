@@ -233,32 +233,6 @@
 
 
 
-// function largestPairSum(numbers) {
-// numbers.sort(function(a, b) {return b - a});
-//     a = numbers[0];
-//     b = numbers[1];
-//     c = a + b;
-//     return c;
-// }
-
-
-// console.log(largestPairSum([1, 2, 5, 3, 23, 11, 21]));
-
-
-
-// function nbYear(p0, percent, aug, p) {
-//   percent=percent/100;
-//   count=0;
-//     while (p0<p) {
-
-// p0=p0+p0*percent+aug;
-// count=count+1;
-
-//    }
-//    return count;
-// }
-
-// console.log(nbYear(1000,2,50,1200));
 
 
 
@@ -808,4 +782,47 @@
 // }
 // )
 // console.log(num);
+
+// arr=[1,2,3,4,5,6,7,8]
+
+// res= arr.some((a) => {  // da je barem jedan element true // every da su svi veci  tj true
+// return a>6
+
+// })
+
+// res2= arr.every((a) => {
+//   return a>3
+// })
+// console.log(res);
+// console.log(res2);
+
+
+
+
+
+// const heroes = [
+
+//   { name: "Naruto" },
+//   { name: "Saske" },
+//   { name: "Kakasi" },
+// ];
+// const heroes2 = heroes.map((el, index) => {
+//   return {
+//     id: index,
+//     hero: el.name
+//   }
+// })
+// console.log(heroes2);
+
+
+
+
+
+
+
+
+
+
+
+
 
