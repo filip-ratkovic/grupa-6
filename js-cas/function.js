@@ -816,6 +816,22 @@
 
 
 
+//ZADATAK backup funkcija
+// function job() {
+//   return "hello world"
+// }
+
+// let mypromise = new Promise((resolve, reject) => {
+//   let res= job();
+//   setTimeout(() => {
+//   resolve(res);
+//   }, 2000);
+// })
+
+
+// mypromise.then((val) => {
+//  console.log(val);
+// })
 
 
 
@@ -824,5 +840,37 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+// function getEvenNumbers(numbersArray){
+//   return numbersArray%2===0
+// }
+
+
+
+
+
+
+
+// console.log(getEvenNumbers([1,2,3,4,5,6,7,8,9,10])
+// );
+
+
+
+// broj2=broj.filter(brojevi) 
+// function brojevi(value) {
+
+//     return value%2!==0
+// }
+// console.log(broj2);
 
 
