@@ -834,6 +834,29 @@
 // })
 
 
+let arr=[1,2,5,6,33,21,88,987,22,2]
+let arr2=["jedan", "Srbija", "K",7,6,2]
+
+// console.log(arr.at(3));                    
+// console.log(arr.concat(arr2));
+// console.log(arr.copyWithin(2,5,6));   //  na indeksu 2, kopira element na indeksu 5 do 6,bez 6.
+
+// const funkEvery = (currentValue) => currentValue > 0;    //jesu li svi elementi ...odg -  true ili false 
+// console.log(arr.every(funkEvery));
+
+// const even = (element) => element % 2 === 0;               // da li je barem jedan element ...  odg -true ili false
+// console.log(arr.some(even));
+
+// console.log(arr.fill(1,3,7));     // popuni elementom "1", od indexa 3 do indexa 7
+// console.log(arr.fill(3,7));       // popuni elementom "3", od indexa 7 do kraja
+// console.log(arr.fill(7));         // popuni elementom "7" ceo niz
+
+
+
+
+
+
+
 
 
 
