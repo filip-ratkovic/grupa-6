@@ -1,0 +1,117 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #b0def0;
+  color: #102a42;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing:0.1rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: sans-serif;
+}
+
+p {
+  margin-bottom: 1.25rem;
+  color: rgb(36, 36, 36)
+}
+
+/*
+Nav
+--------------------------------
+*/
+
+nav {
+    background: #fff;
+    height: 3rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color:hsl(205, 63%, 48%);
+  }
+
+/*
+Container
+--------------------------------
+*/
+main {
+  min-height: calc(100vh - 3rem);
+  display: grid;
+  place-items: center;
+}
+.container {
+  text-align: center;
+}
+.container h2 {
+  background: #222;
+  color: whitesmoke;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 2.5rem;
+}
+.color {
+  color: hsl(205, 78%, 60%);
+}
+.btn-hero {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  background: transparent;
+  color: #222;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  font-weight: 700;
+  transition: all 0.3s linear;
+  border: 2px solid #222;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+.btn-hero:hover {
+  color: whitesmoke;
+  background: #222;
+}
+
+
+/* media queries 
+--------------------------------
+*/
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
