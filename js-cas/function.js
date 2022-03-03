@@ -862,13 +862,13 @@
 
 
 
-function filter_list(l) {
-  let newList;
-  newList=l.filter(el => el>=0 && typeof el === "number");
-  return newList;
-}
+// function filter_list(l) {
+//   let newList;
+//   newList=l.filter(el => el>=0 && typeof el === "number");
+//   return newList;
+// }
 
-console.log(filter_list([1,2,-5,22,"seg","23"]));
+// console.log(filter_list([1,2,-5,22,"seg","23"]));
 
 
 
