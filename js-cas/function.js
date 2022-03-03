@@ -800,20 +800,6 @@
 
 
 
-// const heroes = [
-
-//   { name: "Naruto" },
-//   { name: "Saske" },
-//   { name: "Kakasi" },
-// ];
-// const heroes2 = heroes.map((el, index) => {
-//   return {
-//     id: index,
-//     hero: el.name
-//   }
-// })
-// console.log(heroes2);
-
 
 
 //ZADATAK backup funkcija
@@ -834,8 +820,9 @@
 // })
 
 
-let arr=[1,2,5,6,33,21,88,987,22,2]
-let arr2=["jedan", "Srbija", "K",7,6,2]
+// let arr=[1,2,5,6,33,21,88,987,22,2]
+// let arr2=["jedan", "Srbija", "K",7,6,2]
+// let arr1 = [0, 1, 2, [3, 4]];
 
 // console.log(arr.at(3));                    
 // console.log(arr.concat(arr2));
@@ -851,49 +838,39 @@ let arr2=["jedan", "Srbija", "K",7,6,2]
 // console.log(arr.fill(3,7));       // popuni elementom "3", od indexa 7 do kraja
 // console.log(arr.fill(7));         // popuni elementom "7" ceo niz
 
+// rez=arr.filter(el => el%3===0)       
+// console.log(rez);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function getEvenNumbers(numbersArray){
-//   return numbersArray%2===0
+// function mojafunk(el) {
+//   return el >10
 // }
 
+// let res=arr.filter(mojafunk)
+// console.log(res);
+
+
+// let finder = arr1.flat();      //arr1=[1,2,3[4,5]]  -- odg [1,2,3,4,5].
+// console.log(finder);
+
+//  console.log(Array.from(arr,x => x+2));
+
+// arr.reverse()
+// console.log(arr);
+
+// num=arr.sort(function(a,b) {return a - b});          /// sortiranje brojeva 
+// console.log(num);
 
 
 
+function filter_list(l) {
+  let newList;
+  newList=l.filter(el => el>=0 && typeof el === "number");
+  return newList;
+}
+
+console.log(filter_list([1,2,-5,22,"seg","23"]));
 
 
 
-// console.log(getEvenNumbers([1,2,3,4,5,6,7,8,9,10])
-// );
-
-
-
-// broj2=broj.filter(brojevi) 
-// function brojevi(value) {
-
-//     return value%2!==0
-// }
-// console.log(broj2);
 
 
