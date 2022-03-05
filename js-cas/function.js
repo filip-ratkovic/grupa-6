@@ -871,6 +871,30 @@
 // console.log(filter_list([1,2,-5,22,"seg","23"]));
 
 
+// setTimeout(myFunction, 1000)
+
+//  function myFunction () {
+//     let d = new Date();
+//     document.getElementById("id").innerHTML =
+//         d.getHours() + ":" +
+//         d.getMinutes() + ":" +
+//         d.getSeconds()
+// }
+
+
+
+
+// function myFunction () {
+//     let d = new Date();
+//     document.getElementById("id").innerHTML =
+//         d.getHours() + ":" +
+//         d.getMinutes() + ":" +
+//         d.getSeconds()
+//     setTimeout(myFunction, 1000)
+// }
+
+
+
 
 
 
