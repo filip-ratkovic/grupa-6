@@ -21,6 +21,13 @@ body {
     
 }
 
+.godina {
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 7px;
+    color: black;
+}
+
 
 
 .out {
@@ -34,15 +41,15 @@ body {
 }
 
 .inner {
-    background-color: rgb(158, 158, 158);
-    width: 500px;
-    height: 170px;
+    background-color: #e7e4e4;
+    width: 90%;
+    height: 60%;
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
     border-radius: 3px; 
-    box-shadow: inset 0px 0px 15px rgb(94, 92, 92);
+    box-shadow: inset 0px 0px 15px rgb(94, 92, 92,0.4);
 }
 
 .upper {
@@ -72,11 +79,14 @@ body {
 @media screen and (max-width:600px) {
     .clock {
         font-size: 40px;
-        
+        padding-top:20px;
     }
-    .oko {
+    .out {
 
-        width: 80%;
-        height: 150px;
+        width: 95%;
+        height: 200px;
     }
+.upper {
+    height:30%;
+}
 }
