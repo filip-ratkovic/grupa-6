@@ -10,31 +10,53 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(44, 4, 44);
+    background-color: rgb(214, 207, 207);
 }
 
 .clock {
-    font-size: 100px;
+    font-size: 80px;
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 7px;
-    color: #1bbee2;
+    color: black;
     
 }
 
 
 
-.oko {
-    background-color: black;
+.out {
+    background-color: whitesmoke;
     width: 650px;
-    height: 200px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(44, 4, 44);
-    border-radius: 4px;
-    box-shadow: 30px 30px 200px 20px #3dc1df, -15px -15px 200px 2px #3dc1df;
-    
+
 }
+
+.inner {
+    background-color: rgb(158, 158, 158);
+    width: 500px;
+    height: 170px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px; 
+    box-shadow: inset 0px 0px 15px rgb(94, 92, 92);
+}
+
+.upper {
+    height:20%;
+    display: block;
+    padding-top: 10px;
+}
+
+.down {
+    display: block;
+
+    height:80%;
+}
+
 
 .datum {
     display: block;
@@ -42,7 +64,7 @@ body {
     width: 100%;
 }
 #date {
-    color:#3dc1df ;
+    color:whitesmoke ;
     height: 50px;
     width: 100%;
 }

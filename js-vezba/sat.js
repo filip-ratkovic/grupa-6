@@ -27,4 +27,16 @@ setTimeout (showTime,1000);
 showTime ();
 
 
+function getDate(){
+let date= new Date ();
+y=date.getFullYear();
+m=date.getMonth();
+day=getDay()
+let datum=day+". "+m+" " + y + "."
 
+document.getElementById("datum").innerText=datum;
+document.getElementById("datum").innerContent=datum;
+}
+
+
+getDate ();

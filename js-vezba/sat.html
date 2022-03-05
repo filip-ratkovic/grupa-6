@@ -10,14 +10,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-        </style>
+    </style>
 </head>
 
 <body>
 
-    <div class="oko">
-    <div id="sat" class="clock" onload="showTime()"></div>
-</div>
+    <div class="out">
+
+        <div class="inner">
+
+            <div class="upper">
+                <p id="datum"></p>
+            </div>
+
+            <div class="down">
+                <div id="sat" class="clock" onload="showTime()"></div>
+
+            </div>
+        </div>
+    </div>
     <script src="sat.js"></script>
 </body>
 
