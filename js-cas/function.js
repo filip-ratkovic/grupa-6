@@ -1018,3 +1018,77 @@
 
 
 
+// const posts=[
+//     {title: "Name one", body: "body number one"},
+//     {title: "Name two", body: "body number two"}
+// ]
+
+
+// function getPost() {
+// let output=""
+// posts.forEach((post)=>{
+//     output += `<li> ${post.title} </li>`;
+// })
+// document.body.innerHTML=output;
+    
+// }
+// getPost();
+
+// function createPost(post, callback) {
+//     setTimeout(()=>{
+//     posts.push(post)
+//     callback()
+//     },2000)
+// }
+
+// createPost({title:"three",body: "number three"},getPost)
+
+
+
+
+
+// const posts=[
+//     {title: "Name one", body: "body number one"},
+//     {title: "Name two", body: "body number two"}
+// ]
+
+
+// function getPost() {
+// let output=""
+// posts.forEach((post)=>{
+//     output += `<li> ${post.title} </li>`;
+// })
+// document.body.innerHTML=output;
+    
+// }
+// getPost();
+
+// function createPost(post) {
+//     return new Promise ((resolve, reject) => {
+//         setTimeout(()=>{
+//             posts.push(post)
+//             const error = true;
+//             if(!error) {
+//                 resolve()
+//             } else {
+//                 reject("error, something happend")
+//             }
+
+
+
+//             },1000)
+
+//     })
+// }
+
+// createPost({title:"three",body: "number three"})
+// .then(getPost)
+// .catch(err => console.log(err))
+
+
+// function promiseHelloWorld() {
+//  return  new Promise((resolve, reject) => {
+//         resolve("Hello World")
+//      })
+//   }
+ 
