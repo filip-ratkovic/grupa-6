@@ -893,8 +893,128 @@
 //     setTimeout(myFunction, 1000)
 // }
 
+// new Promise ((resolve, reject) => {
+// console.log("Prva stavka");
+// resolve();
+
+// })
+// .then(() => {
+//     kskkdkdsg
+// })
+// .catch(()=> {
+//     console.log("error");
+// })
+// console.log("poslednja stavka");
+// console.log("poslednja stavka");
+// console.log("poslednja stavka");
 
 
+
+// new Promise ((resolve, reject) => {
+//     console.log("Prva stavka");
+//     resolve();
+    
+//     })
+//     .then(() => {
+//         kskkdkdsg
+//     })
+//     .catch(()=> {
+//         console.log("error");
+//     })
+//     console.log("poslednja stavka");
+//     console.log("poslednja stavka");
+//     console.log("poslednja stavka");
+    
+
+
+
+
+
+// new Promise((resolve, reject) => {
+//     console.log('Promise console log started');
+
+//     reject()
+// })
+// .then(() => {
+//     throw new Error('Something failed');
+
+//     console.log('Do this');
+// })
+// .catch(() => {
+//     console.error('Do that');
+// })
+// .then(() => {
+//     throw new Error('Something failed');
+// })
+// .then(() => {
+// console.log("last than");})
+// .catch(() => {
+//     console.log("last catch");
+// })
+// .finally(() => {
+//     console.log('Do this, no matter what happened before');
+
+
+// })
+
+
+// const promise= new Promise((resolve, reject) => {
+//     resolve()
+// });
+
+// promise
+// .then(() => {
+//     console.log("resolved prvi");
+// })
+// .catch(() => {
+//     console.log("error");
+// })
+// .then(()=> {
+// throw new Error("greska 1")
+// console.log("console log posle greske");
+// })
+
+// .then(() => {
+//     console.log("last");
+// })
+// .finally (() => {
+//     console.log("finnaly");
+// })
+
+
+// new Promise((resolve, reject) => {
+//    throw new Error("er")
+
+
+// })
+// .then(() => {
+//     console.log('Do this');
+// })
+// .catch(() => {
+//     console.error('Do that');
+// })
+
+
+// var promise = new Promise((resolve, reject) => {
+
+//     const x = "geeksforgeeks";
+//     const y = "geekforgeeks"
+//     if(x === y) {
+//       resolve();
+//     } else {
+//       reject();
+//     }
+
+// })
+
+
+// promise
+// .then (()=> {
+//     console.log("resolved");
+// })
+// .catch(()=> {
+//     console.log("rejected");
+// })
 
 
 
