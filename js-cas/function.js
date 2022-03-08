@@ -1092,3 +1092,28 @@
 //      })
 //   }
  
+
+
+// function resolveAfter2Seconds() {
+//   return  new Promise((resolve, reject) => {
+// setTimeout(()=>{
+// resolve("resolved")
+// },2000)
+//     })
+// }
+
+// async function asyncFunk() {
+//     console.log("first console log");
+//     const result = await resolveAfter2Seconds();
+//     console.log(result);
+// }
+
+// asyncFunk()
+
+
+// async function asyncF() {
+//     return "resolved"
+// }
+
+// asyncF
+// .then
