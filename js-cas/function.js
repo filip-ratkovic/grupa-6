@@ -1117,3 +1117,38 @@
 
 // asyncF
 // .then
+
+
+
+
+// async function catfact(){
+//     try{
+//      const result = await fetch("https://catfact.ninja/fact")
+//      const resJson= await result.json();
+//      console.log(resJson);
+//     } 
+//     catch {
+//         console.log("error");
+//     }
+//  }
+ 
+//  catfact()
+
+
+
+// async function fetcher(){
+    
+//    try{
+//     res = await fetch("https://jsonplaceholder.typicode.com/users")
+//     res2=await res.json();
+//     let arr= [];
+//    arr= res2.map((person) =>{
+//        return {name:person.name};
+//    })
+//     console.log(arr);
+//    } catch{
+//        console.log("error");
+//    }
+// }
+
+// fetcher()
