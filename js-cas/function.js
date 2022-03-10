@@ -1134,7 +1134,7 @@
  
 //  catfact()
 
-
+ 
 
 // async function fetcher(){
     
@@ -1152,4 +1152,67 @@
 // }
 // fetcher()
 
+
+
+
+
+// function resolveAfter2Seconds() {
+//     console.log("starting slow promise")
+//     return new Promise(resolve => {
+//       setTimeout(function() {
+//         resolve("slow")
+//         console.log("slow promise is done")
+//       }, 2000)
+//     })
+//   }
+  
+//   function resolveAfter1Second() {
+//     console.log("starting fast promise")
+//     return new Promise(resolve => {
+//       setTimeout(function() {
+//         resolve("fast")
+//         console.log("fast promise is done")
+//       }, 1000)
+//     })
+//   }
+
+/////////  prvo saceka da se zavrsi prvi promis i izvrsi, pa saceka drugi i izvrsi      /////////////
+
+//   async function sequentialStart() {
+//     console.log('==SEQUENTIAL START==')
+  
+//     const slow = await resolveAfter2Seconds()
+//     console.log(slow) 
+  
+//     const fast = await resolveAfter1Second()
+//     console.log(fast) 
+//   }
+
+//   sequentialStart()
+
+/////////  prvo izvrsava funk timer, onda resolva redom      /////////////
+
+// async function concurrentStart() {
+//     console.log('==CONCURRENT START with await==');
+//     const slow = resolveAfter2Seconds() // starts timer immediately
+//     const fast = resolveAfter1Second() // starts timer immediately
+  
+//     // 1. Execution gets here almost instantly
+//     console.log(await slow) // 2. this runs 2 seconds after 1.
+//     console.log(await fast) // 3. this runs 2 seconds after 1., immediately after 2., since fast is already resolved
+//   }
+
+//   concurrentStart()
+
+/////////         Paralelno izvrsavanje promisa, izvrsavanje u isto vreme ALL /////////////
+// async function parallel() {
+//     console.log('==PARALLEL with await Promise.all==')
+  
+//     await Promise.all([
+//         (async()=>console.log(await resolveAfter2Seconds()))(),
+//         (async()=>console.log(await resolveAfter1Second()))()
+//     ])
+//   }
+  
+//   parallel()
 
