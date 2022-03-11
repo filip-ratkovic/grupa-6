@@ -1216,3 +1216,32 @@
   
 //   parallel()
 
+
+
+function stil(vals) {
+  
+    var div2=document.createElement("div")
+    div2.style.width="200px";
+    div2.style.height="100px";
+    div2.style.backgroundColor="grey";
+    div2.style.display="inline-block"
+    div2.style.flexWrap="wrap"
+    div2.style.margin="10px"
+    div2.style.verticalAlign="middle"
+    div2.style.justifyContent="space-around"
+    div2.innerHTML="Rasa macke je: "+ vals
+    return div2
+}
+var div1=document.getElementById("test")
+
+async function catBreeds(){
+    let breeds = await fetch("https://catfact.ninja/breeds")
+    let breedsJson = await breeds.json()
+    for(let i=0;breedsJson.data.length;i++) {
+        div1.appendChild(stil(breedsJson.data[i].breed))
+    }
+    
+    
+}
+
+catBreeds()
