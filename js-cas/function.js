@@ -913,7 +913,7 @@
 // new Promise ((resolve, reject) => {
 //     console.log("Prva stavka");
 //     resolve();
-    
+
 //     })
 //     .then(() => {
 //         kskkdkdsg
@@ -924,7 +924,7 @@
 //     console.log("poslednja stavka");
 //     console.log("poslednja stavka");
 //     console.log("poslednja stavka");
-    
+
 
 
 
@@ -1030,7 +1030,7 @@
 //     output += `<li> ${post.title} </li>`;
 // })
 // document.body.innerHTML=output;
-    
+
 // }
 // getPost();
 
@@ -1059,7 +1059,7 @@
 //     output += `<li> ${post.title} </li>`;
 // })
 // document.body.innerHTML=output;
-    
+
 // }
 // getPost();
 
@@ -1091,7 +1091,7 @@
 //         resolve("Hello World")
 //      })
 //   }
- 
+
 
 
 // function resolveAfter2Seconds() {
@@ -1131,13 +1131,13 @@
 //         console.log("error");
 //     }
 //  }
- 
+
 //  catfact()
 
- 
+
 
 // async function fetcher(){
-    
+
 //    try{
 //     res = await fetch("https://jsonplaceholder.typicode.com/users")
 //     res2=await res.json();
@@ -1165,7 +1165,7 @@
 //       }, 2000)
 //     })
 //   }
-  
+
 //   function resolveAfter1Second() {
 //     console.log("starting fast promise")
 //     return new Promise(resolve => {
@@ -1180,10 +1180,10 @@
 
 //   async function sequentialStart() {
 //     console.log('==SEQUENTIAL START==')
-  
+
 //     const slow = await resolveAfter2Seconds()
 //     console.log(slow) 
-  
+
 //     const fast = await resolveAfter1Second()
 //     console.log(fast) 
 //   }
@@ -1196,7 +1196,7 @@
 //     console.log('==CONCURRENT START with await==');
 //     const slow = resolveAfter2Seconds() // starts timer immediately
 //     const fast = resolveAfter1Second() // starts timer immediately
-  
+
 //     // 1. Execution gets here almost instantly
 //     console.log(await slow) // 2. this runs 2 seconds after 1.
 //     console.log(await fast) // 3. this runs 2 seconds after 1., immediately after 2., since fast is already resolved
@@ -1207,44 +1207,70 @@
 /////////         Paralelno izvrsavanje promisa, izvrsavanje u isto vreme ALL /////////////
 // async function parallel() {
 //     console.log('==PARALLEL with await Promise.all==')
-  
+
 //     await Promise.all([
 //         (async()=>console.log(await resolveAfter2Seconds()))(),
 //         (async()=>console.log(await resolveAfter1Second()))()
 //     ])
 //   }
-  
+
 //   parallel()
 
 
 
-function stil(vals) {
-  
-    var div2=document.createElement("div")
-    div2.style.width="200px";
-    div2.style.height="100px";
-    div2.style.backgroundColor="darkseagreen";
-    div2.style.display="inline-block"
-    div2.style.flexWrap="wrap"
-    div2.style.margin="10px"
-    div2.style.padding="10px"
-    div2.style.borderRadius="4px"
-    div2.style.verticalAlign="middle"
-    div2.style.justifyContent="space-around"
-    div2.innerHTML="Rasa macke je: "+ vals
-  
-    return div2
-}
-var div1=document.getElementById("test")
+// function stil(vals) {
 
-async function catBreeds(){
-    let breeds = await fetch("https://catfact.ninja/breeds")
-    let breedsJson = await breeds.json()
-    for(let i=0;breedsJson.data.length;i++) {
-        div1.appendChild(stil(breedsJson.data[i].breed))
+//     var div2 = document.createElement("div")
+//     div2.style.width = "200px";
+//     div2.style.height = "100px";
+//     style = document.createElement("style")
+//     div2.appendChild(style)
+//     div2.style.backgroundColor = "darkseagreen";
+//     div2.style.display = "inline-block"
+//     div2.style.flexWrap = "wrap"
+//     div2.style.margin = "10px"
+//     div2.style.padding = "10px"
+//     div2.style.borderRadius = "4px"
+//     div2.style.verticalAlign = "middle"
+//     div2.style.justifyContent = "space-around"
+//     div2.innerHTML = "Rasa macke je: " + vals
+
+//     return div2
+// }
+// var div1 = document.getElementById("test")
+
+// async function catBreeds() {
+//     let breeds = await fetch("https://catfact.ninja/breeds")
+//     let breedsJson = await breeds.json()
+//     for (let i = 0; breedsJson.data.length; i++) {
+//         div1.appendChild(stil(breedsJson.data[i].breed))
+//     }
+// }
+
+// catBreeds()
+
+
+
+// you dont know js
+
+
+
+var e= 10;
+
+function sum(a) {
+return function (b) {
+    return function (c) {
+        return a+b+c+e
     }
-    
-    
+}
 }
 
-catBreeds()
+
+f1=sum(1);
+f2=f1(2);
+let suma=f2(3)
+console.log(suma);
+console.log(sum(1)(2)(3));
+
+
+
