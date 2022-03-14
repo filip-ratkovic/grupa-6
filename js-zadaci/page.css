@@ -1,0 +1,20 @@
+* {
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+.down{
+    height: 20vh;
+    width: 100%;
+    background-color: aquamarine;
+}
+.up{
+    height: 80vh;
+
+}
