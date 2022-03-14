@@ -1251,26 +1251,29 @@
 
 
 
-// you dont know js
 
 
 
-var e= 10;
+// var e= 10;
 
-function sum(a) {
-return function (b) {
-    return function (c) {
-        return a+b+c+e
-    }
-}
-}
+// function sum(a) {
+// return function (b) {
+//     return function (c) {
+//         return a+b+c+e
+//     }
+// }
+// }
 
 
-f1=sum(1);
-f2=f1(2);
-let suma=f2(3)
-console.log(suma);
-console.log(sum(1)(2)(3));
+// f1=sum(1);
+// f2=f1(2);
+// let suma=f2(3)
+// console.log(suma);
+// console.log(sum(1)(2)(3));
 
+
+
+//fireship////////////////////////////////////////////////////////////////////////////////////////////////
+// learnjavascrip.onlince.knowledgemap.innerHTML
 
 
