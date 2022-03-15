@@ -4,17 +4,54 @@ margin: 0px;
 padding: 0px;
 }
 
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content:flex-end;
 }
 .down{
+    
+    display: flex;
+    justify-content:center;
+    align-items:center;
     height: 20vh;
     width: 100%;
-    background-color: aquamarine;
+    background-color: whitesmoke;
 }
 .up{
     height: 80vh;
-
 }
+
+button {
+   background: none;
+   appearance: none;
+   border: none;
+   cursor:pointer;
+}
+
+.page-btn{
+    background: #ddd;
+    color: #222;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    height:35px;
+    border-radius: 4px;
+}
+
+.page-btn:not([class$="-page"]) {
+    width:35px;
+}
+
+.page-btn[class$="-page"] {
+    background:#ccc;
+    font-size:0.6em;
+    font-weight:bold;
+}
+
+.page-btn.active {
+    background: #717790;
+    color: #fff;
+    height:39px;
+}
+
