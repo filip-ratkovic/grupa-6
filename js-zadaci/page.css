@@ -24,32 +24,23 @@ padding: 0px;
 }
 
 button {
-   background: none;
-   appearance: none;
-   border: none;
+  
    cursor:pointer;
-}
-
-.page-btn{
-    background: #ddd;
+   background: #ddd;
     color: #222;
     padding: 0px 10px;
     text-transform: uppercase;
     height:35px;
     border-radius: 4px;
+    margin: 1px;
 }
 
-.page-btn:not([class$="-page"]) {
-    width:35px;
-}
 
-.page-btn[class$="-page"] {
-    background:#ccc;
-    font-size:0.6em;
-    font-weight:bold;
-}
 
-.page-btn.active {
+
+
+
+button.active {
     background: #717790;
     color: #fff;
     height:39px;

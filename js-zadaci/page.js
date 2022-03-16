@@ -17,27 +17,41 @@ function stil(vals) {
 
     return div2
 }
-divUp = document.getElementById("up");
+var divUp = document.getElementById("up");
+ var divDown = document.getElementById("down")
 
-async function text() {
-    list = await fetch("https://catfact.ninja/facts")
-    list = await list.json();
-    // document.getElementById("text-here").innerHTML=list.data[0].fact;
-    for (let i = 0; i < list.data.length; i++) {
-        divUp.appendChild(stil(list.data[i].fact))
+
+var fetchlink = "https://catfact.ninja/facts"
+
+async function fetchLink() {
+    res1=await fetch(fetchlink);
+    res= await res1.json();
+    divUp.innerHTML=""
+    for(let i=0;i<res.length;i++) {
+        divUp.appendChild(stil(res.data[i]));
+    }
+    divDown.innerHTML="";
+
+    for(let i = 0; i <res.links.length;i++) {
+        divDown.appendChild(pageNav(res.links[i]));
     }
 }
 
-// text()
-// let currentPage = 1;
-// let start = document.getElementById("start")
-// text=document.getElementById("text")
-// text=window.open("https://catfact.ninja/facts?page=1");
-
-// start.onclick = text
+fetchLink()
 
 
-// next=document.getElement("page-btn next-page")
-// next.click(function() {
-// currentPage++
-// });
+function pageNav(vals) {
+    let nav = document.createElement("button");
+    nav.innerHTML= vals.label;
+    if(vals.active){
+        nav.style.background="#717790"
+        nav.style.height="40px"
+        nav.style.color="#fff"
+    }
+    nav.onclick = function() {
+document.getElementById("up").innerHTML = vals.url;
+    }
+    return nav;
+    
+}
+
