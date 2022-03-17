@@ -1,9 +1,8 @@
-* {
+*{
 box-sizing: border-box;
 margin: 0px;
 padding: 0px;
 }
-
 
 .container {
     display: flex;
@@ -21,7 +20,7 @@ padding: 0px;
 }
 .up{
     height: 80vh;
-}
+} 
 
 button {
   
@@ -35,14 +34,9 @@ button {
     margin: 1px;
 }
 
-
-
-
-
-
 button.active {
     background: #717790;
     color: #fff;
     height:39px;
 }
-
+ 
