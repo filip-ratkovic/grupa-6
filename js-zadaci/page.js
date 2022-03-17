@@ -1,8 +1,8 @@
 function stil(val) {
 
     var div2 = document.createElement("div")
-    div2.style.width = "200px";
-    div2.style.height = "100px";
+    div2.style.width = "250px";
+    div2.style.height = "220px";
     style = document.createElement("style")
     div2.appendChild(style)
     div2.style.backgroundColor = "darkseagreen";
@@ -14,6 +14,7 @@ function stil(val) {
     div2.style.verticalAlign = "middle"
     div2.style.justifyContent = "space-around"
     div2.innerHTML = val
+    div2.id="div2"
 
     return div2
 }
@@ -54,7 +55,7 @@ function pageNav(vals) {
 
     nav.onclick = function (el) {
         el.preventDefault();
-        fetchlink = "https://catfact.ninja/facts"
+        fetchlink = vals.url;
         fetchLink()
     }
     return nav;
