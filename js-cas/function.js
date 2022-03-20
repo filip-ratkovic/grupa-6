@@ -1266,42 +1266,82 @@
 // console.log(suma);
 // console.log(sum(1)(2)(3));
 
-////////////////////////////////////////     DOM *///////////
 
 
+// let btn = document.querySelector("#btn");
+// let name = document.querySelector("#name");
+// let password = document.querySelector("#password");
+// let username = document.querySelector("#username");
+// let email = document.querySelector("#email");
 
 
+// btn.addEventListener("click", (e) => {
+//     e.preventDefault();
+// const vrednosti={
+//     email: e.target.form[0].value,
+//     name: e.target.form[1].value,
+//     username: e.target.form[2].value,
+//     password: e.target.form[3].value,
+// }
 
-let btn = document.querySelector("#btn");
-let name = document.querySelector("#name");
-let password = document.querySelector("#password");
-let username = document.querySelector("#username");
-let email = document.querySelector("#email");
-
-
-btn.addEventListener("click", (e) => {
-    e.preventDefault();
-const vrednosti={
-    email: e.target.form[0].value,
-    name: e.target.form[1].value,
-    username: e.target.form[2].value,
-    password: e.target.form[3].value,
-}
-
-    console.log(vrednosti);
-    fetch("https://serene-fortress-45917.herokuapp.com/v1/auth/signup",
-    { 
-    method: "POST",
-    headers: {
-        "Content-type": "application/json; charset=UTF-8"
-    },
-     body: JSON.stringify(vrednosti)
-    })
-    .then(res => res.json())
+//     console.log(vrednosti);
+//     fetch("https://serene-fortress-45917.herokuapp.com/v1/auth/signup",
+//     { 
+//     method: "POST",
+//     headers: {
+//         "Content-type": "application/json; charset=UTF-8"
+//     },
+//      body: JSON.stringify(vrednosti)
+//     })
+//     .then(res => res.json())
  
-.then(json => console.log(json))
-    }).catch(err => console.log(err))
+// .then(json => console.log(json))
+//     }).catch(err => console.log(err))
+
+
+// cName=document.getElementsByClassName("test"[0]);
+// console.log(cName);
+
+// cName.style.color="red";
 
 
 
 
+
+
+//////////////////SessionStorage//////////////////////////////////
+
+
+let key = "Ime"
+let key2="Prezime"
+sessionStorage.setItem(key, "Filip");
+sessionStorage.setItem(key2, "Ratkovic");
+let myItem = sessionStorage.getItem(key);
+
+// sessionStorage.removeItem(key2);
+// sessionStorage.clear()
+
+console.log(sessionStorage);
+console.log(myItem);
+
+
+// let myObj = { name: 'Skip', breed: 'Labrador' };
+// let myObj2 = { name: 'Dzeki', breed: 'Doberman' };
+
+// sessionStorage.setItem(key, JSON.stringify(myObj));
+// sessionStorage.setItem(key2, JSON.stringify(myObj2));
+
+
+// let item = JSON.parse(sessionStorage.getItem(key));
+// console.log(item);
+
+// if (sessionStorage.length > 0) {
+// console.log("Storage nije prazan");  } 
+// else {
+// console.log("Storage je prazan");  }
+
+if (window.sessionStorage) {
+    console.log("window local storage nesto");
+  } else {
+      console.log("nije");
+  }
