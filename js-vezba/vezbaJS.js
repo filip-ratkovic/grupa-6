@@ -168,10 +168,10 @@
 // age(122)
 
 
-let iv=0;
-let sh=0;
-let ukupno=0;
+// let iv=0;
+// let sh=0;
+// let ukupno=0;
 
-function ad(){
-    ukupno=
-}
+// function ad(){
+//     ukupno=
+// }
