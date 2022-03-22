@@ -3,8 +3,6 @@ function stil(val) {
     var div2 = document.createElement("div")
     div2.style.width = "250px";
     div2.style.height = "220px";
-    style = document.createElement("style")
-    div2.appendChild(style)
     div2.style.backgroundColor = "darkseagreen";
     div2.style.display = "inline-block"
     div2.style.flexWrap = "wrap"

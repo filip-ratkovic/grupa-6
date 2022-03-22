@@ -180,10 +180,9 @@
 let unos= document.getElementById("unos")
 submit= document.getElementById("btnSubmit")
 res=document.getElementById("btnRes")
-let naziv = ""
 
 
-submit.addEventListener("click", (e) =>{ 
+submit.addEventListener("click", () =>{ 
     res2=unos.value * 0.05 + " kubika"
     res.innerHTML =res2
 })

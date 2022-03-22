@@ -1312,17 +1312,17 @@
 //////////////////SessionStorage//////////////////////////////////
 
 
-let key = "Ime"
-let key2="Prezime"
-sessionStorage.setItem(key, "Filip");
-sessionStorage.setItem(key2, "Ratkovic");
-let myItem = sessionStorage.getItem(key);
+// let key = "Ime"
+// let key2="Prezime"
+// sessionStorage.setItem(key, "Filip");
+// sessionStorage.setItem(key2, "Ratkovic");
+// let myItem = sessionStorage.getItem(key);
 
 // sessionStorage.removeItem(key2);
 // sessionStorage.clear()
 
-console.log(sessionStorage);
-console.log(myItem);
+// console.log(sessionStorage);
+// console.log(myItem);
 
 
 // let myObj = { name: 'Skip', breed: 'Labrador' };
@@ -1340,8 +1340,12 @@ console.log(myItem);
 // else {
 // console.log("Storage je prazan");  }
 
-if (window.sessionStorage) {
-    console.log("window local storage nesto");
-  } else {
-      console.log("nije");
-  }
+// if (window.sessionStorage) {
+//     console.log("window local storage nesto");
+//   } else {
+//       console.log("nije");
+//   }
+
+
+////////////////////////////////////////////////////////////////////
+
