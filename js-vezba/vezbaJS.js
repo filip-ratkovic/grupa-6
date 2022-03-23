@@ -177,12 +177,29 @@
 // }
 
 
-let unos= document.getElementById("unos")
-submit= document.getElementById("btnSubmit")
-res=document.getElementById("btnRes")
+// let unos= document.getElementById("unos")
+// submit= document.getElementById("btnSubmit")
+// res=document.getElementById("btnRes")
 
 
-submit.addEventListener("click", () =>{ 
-    res2=unos.value * 0.05 + " kubika"
-    res.innerHTML =res2
+// submit.addEventListener("click", () =>{ 
+//     res2=unos.value * 0.05 + " kubika"
+//     res.innerHTML =res2
+// })
+let form = document.getElementById("login")
+let submit = document.getElementById("submit")
+let password = form["password"]
+let email = form["email"]
+
+
+submit.addEventListener("click", (e) => {
+    e.preventDefault()
+    let res={}
+    res={
+        email: form["email"].value,
+        password: form["password"].value
+    }
+    console.log(
+        res
+    );
 })
