@@ -211,3 +211,10 @@
 //     document.getElementById("demo").innerHTML =
 //     "Cookies associated with this document: " + document.cookie;
 //   }
+
+
+// function funk() {
+//     document.getElementById("demo").innerHTML = document.domain;
+//   }
+
+// document.getElementById("demo").innerHTML = document.lastModified;
