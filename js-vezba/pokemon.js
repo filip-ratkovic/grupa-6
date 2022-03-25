@@ -67,34 +67,38 @@ let tezina = document.getElementById("weightOdg");
 let exp = document.getElementById("expOdg");
 let pokemonName = document.getElementById("name");
 let type = document.getElementById("type");
-let img= document.getElementById("img")
-let imgCont= document.getElementById("image-container")
+let img = document.getElementById("img")
+let imgCont = document.getElementById("image-container")
+let leftButton = document.querySelector('.left-button');
+let rightButton = document.querySelector('.right-button');
+let prevUrl = null;
+let nextUrl = null;
 
-btn.style.padding="10px"
+btn.style.padding = "10px"
 
 let getPokemons = () => {
-id=Math.floor(Math.random()*100)+1
-finalUrl = url + id;
+	id = Math.floor(Math.random() * 100) + 1
+	finalUrl = url + id;
 
-fetch(finalUrl)
-.then((res) => res.json())
-.then((data) => getCard(data))
+	fetch(finalUrl)
+		.then((res) => res.json())
+		.then((data) => getCard(data))
 }
 let color
 let getCard = (data) => {
-console.log(data);
-visina.innerHTML=data.height
-tezina.innerHTML=data.weight
-exp.innerHTML=data.height
-pokemonName.innerHTML=data.name[0].toUpperCase() + data.name.slice(1)
-type.innerHTML=data.types[0].type.name
-img.src=data.sprites.front_default
-let themeColor = colors[data.types[0].type.name];
-imgCont.style.background=themeColor;
-type.style.background=themeColor
+	console.log(data);
+	visina.innerHTML = data.height
+	tezina.innerHTML = data.weight
+	exp.innerHTML = data.height
+	pokemonName.innerHTML = data.name[0].toUpperCase() + data.name.slice(1)
+	type.innerHTML = data.types[0].type.name
+	img.src = data.sprites.front_default
+	let themeColor = colors[data.types[0].type.name];
+	imgCont.style.background = themeColor;
+	type.style.background = themeColor;
 }
 
 
 
-btn.addEventListener("click",getPokemons)
-window.addEventListener("load",getPokemons)
+btn.addEventListener("click", getPokemons)
+window.addEventListener("load", getPokemons)
