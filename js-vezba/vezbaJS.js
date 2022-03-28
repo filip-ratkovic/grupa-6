@@ -218,3 +218,103 @@
 //   }
 
 // document.getElementById("demo").innerHTML = document.lastModified;
+
+// function toCelsius(fahrenheit) {
+//     // y= (5/9) * (fahrenheit-32)
+//     // y = y.toFixed(2)
+//     // return y
+//   }
+
+// let x = toCelsius(100)
+// console.log(x + " stepeni");
+
+// let x = (fahrenheit) => {
+//   y=  (5/9) * (fahrenheit-32)
+//   return y
+// }
+// console.log(x(100));
+
+
+// ((fahrenheit) => {
+//   y=  (5/9) * (fahrenheit-32)
+//   console.log(y);
+// })(100);
+
+
+// x= findMax(1,2,3,4,22,33,12214,322,1)
+
+// function  findMax() {
+// max= -Infinity;
+// for (let i = 0; i < arguments.length; i++) {
+//     if(arguments[i] > max) {
+//         max= arguments[i];
+//     }
+// } return max
+// }
+
+// console.log(x);
+
+
+// obj= {
+//     name: "Filip",
+//     lastname: "Ratkovic",
+//     fullname: function () {
+//         return this.name + " " + this.lastname;
+//     }
+// }
+// console.log(obj.fullname());
+// obj.name = "Marko";
+
+// fullname = obj.fullname();
+// console.log(fullname);
+
+///////////////////////////////////////////////CALL METHOD
+// user= {
+//     fullname: function (city) {
+//         return this.name + " " + this.lastname + " from " + city;
+//     }
+// }
+// person1 = {
+//     name: "John",
+//     lastname: "Wick"
+// }
+// user1=user.fullname.call(person1, "Belgrade")
+// console.log(user1);
+
+///////////////////////////////////////////// APPLY METODA 
+
+// user= {
+//     fullname: function (city,country) {
+//         return this.name + " " + this.lastname + " from " + city + " " + country;
+//     }
+// }
+// person1 = {
+//     name: "John",
+//     lastname: "Wick"
+// }
+// user1=user.fullname.apply(person1, ["Belgrade", "Serbia"])
+// console.log(user1);
+
+
+
+// console.log(Math.max.apply(0,[1,2,3]))
+
+ ////////////////////////////////////////////////////// BIND METODA 
+
+// user= {
+//     name: "Filip", 
+//     lastname: "Ratkovic",
+//     fullname: function (city,country) {
+//         return this.name + " " + this.lastname;
+//     }
+// }
+// person1 = {
+//     name: "John",
+//     lastname: "Wick"
+// }
+// user2=user.fullname.bind(person1)
+// console.log(user2());
+///////////////////////////////////////////
+
+// console.log(isFinite("sd"));
+// console.log(Number.isFinite("0"));
