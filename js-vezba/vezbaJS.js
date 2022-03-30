@@ -168,24 +168,24 @@
 // age(122)
 
 
-// let iv=0;
-// let sh=0;
-// let ukupno=0;
-
-// function ad(){
-//     ukupno=
-// }
+let iv=0;
+let sh=0;
+let ukupno=0;
 
 
-// let unos= document.getElementById("unos")
-// submit= document.getElementById("btnSubmit")
-// res=document.getElementById("btnRes")
+
+let unos= document.getElementById("unos")
+submit= document.getElementById("btnSubmit")
+res=document.getElementById("btnRes")
 
 
-// submit.addEventListener("click", () =>{ 
-//     res2=unos.value * 0.05 + " kubika"
-//     res.innerHTML =res2
-// })
+submit.addEventListener("click", () =>{ 
+    res2=unos.value * 0.05 
+res2=res2.toString();
+res2=Number(res2);
+res2=res2.toFixed(2)
+    res.innerHTML =res2 + " kubika"
+})
 // let form = document.getElementById("login")
 // let submit = document.getElementById("submit")
 // let password = form["password"]
@@ -318,3 +318,46 @@
 
 // console.log(isFinite("sd"));
 // console.log(Number.isFinite("0"));
+
+
+// person = {
+//     name: "John",
+//     lastname: "Wick",
+//     age: 34,
+//     height:190,
+// }
+
+// person["weight"]="90kg"
+// txt= ""
+// for(let x in person) {
+
+//     txt += person[x] + " "
+// }
+// a=JSON.stringify(person)
+// console.log(a);
+
+
+// function Person (name, lastName,age) {
+//     this.name = name;
+//     this.lastName = lastName;
+//     this.age = age;
+// }
+
+// let filip = new Person ("filip", "ratjivuc", 34) 
+// console.log(filip);
+
+// a=["a", "b", "c", "d", "b", "b", "b"]
+
+// let letters = new Set(a);
+// let txt = ""
+// letters.forEach((el) => {
+// txt += el  + ","
+// } ) 
+
+
+// letters.add("d")
+// letters.add("d")
+// letters.add("e")
+// console.log(txt);
+
+
