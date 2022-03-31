@@ -1347,5 +1347,70 @@
 //   }
 
 
-////////////////////////////////////////////////////////////////////
+// ////////////////////////////////////////////////////////////////////
+
+// obj1= {
+//     name: "John",
+//     age: 34,
+// clgg : function () {
+// console.log(this.name + " star " + this.age)
+// }
+// }
+// obj3= {
+//     name: "FIlip",
+//     age: 35,
+// }
+
+// obj2= {
+//     city: "Novi Pazar",
+//     code: 36300
+// }
+
+// Object.entries(obj2).forEach(([key, value]) => console.log(`${key} : ${value}`))
+// objCreate = Object.create(obj1);
+// objCreate.name = "Filip";
+// objCreate.clgg()
+// obj3= {... obj2}
+
+// asObj = Object.assign({},obj3, obj2,obj1);
+// console.log(asObj);
+
+//1.
+// var student = {
+//     name : "David Rayy",
+//     sclass : "VI",
+//     rollno : 12 };
+
+//  let studentValues=  Object.values(student);
+// let txt = ""
+//  for(let i=0; i<studentValues.length; i++) {
+// txt += studentValues[i] + ","
+// }
+// console.log(txt);
+
+//2.
+
+// var student = {
+//     name : "David Rayy",
+//     sclass : "VI",
+//     rollno : 12 };
+
+//     delete student.rollno;
+//     console.log(student);
+
+// 3. 
+
+// Object.objSize = function(obj) {
+// res=Object.keys(obj)
+// return res.length
+// }
+
+// var student = {
+//     name : "David Rayy",
+//     sclass : "VI",
+//     rollno : 12 };
+
+// objsize = Object.objSize(student)
+
+// console.log(objsize);
 
