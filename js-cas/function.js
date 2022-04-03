@@ -1442,3 +1442,79 @@
 
 /////5.
 
+
+
+// all= {...person2, adresse: {city: "Raska"}}
+// console.log(all);
+// const [a,b,...rest] = letter
+// // newArr=[...num, ...letter]
+// newArr = num.concat(letter)
+// console.log(newArr);
+
+// function sum (a,b) {
+//     return [a*b,a+b,a/b]
+// }
+
+// let [puta,plus,podeljeno="No value"] = sum(2,5)
+// console.log(podeljeno);
+
+// num = [1,2,3,4,5,6,7];
+// letter = ["A","B","C","D","E","F"]
+
+
+// person1 = {
+//     name: "John",
+//     lastName: "Wick",
+//     age: "36"
+// }
+
+// person2 = {
+//     age: "22",
+//     adresse: {
+//         city: "Novi Pazar",
+//         country: "Japan"
+// }
+// }
+// person3 = {...person1, ...person2}
+
+// function userLog ({name,age}) {
+//     console.log(`Name of user is ${name} and age is ${age}`);
+// }
+
+// let userLog2 = (user) => console.log(`Name of user is ${user.name} and age is ${user.age}`);
+    
+// userName = userLog2(person1)
+
+items=[
+    {name:"bike", price:100},
+    {name:"tv", price:500},
+    {name:"phone", price:450},
+    {name:"book", price:30},
+    {name:"keyboard", price:20},
+    {name:"laptop", price:200}
+]
+
+// cheap = items.filter((item) => {
+//     return item.price>=100
+// })
+// itemsNames = items.map((item) => {
+//     return item.name
+// })
+// itemsNames = items.find((item) => {
+//     return item.name=== "book"
+// })
+// items.forEach((item) => {
+//     console.log(item.name);
+// })
+
+// niz1=[2,4,113,34,75,-232,1,44]
+
+// niz1.sort((a,b) => {return a-b})
+// nizStr=niz1.toString()
+// console.log(nizStr);
+// a="hello world"
+// arr=a.split(" ")
+// niz1.sort((a,b) =>{return b-a})
+// console.log(niz1);
+// niz2=niz1.slice(-3,-1)
+// console.log(niz2);
