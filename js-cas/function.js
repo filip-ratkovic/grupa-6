@@ -1518,3 +1518,58 @@ items=[
 // console.log(niz1);
 // niz2=niz1.slice(-3,-1)
 // console.log(niz2);
+// let itemName=[]
+// items.forEach((el) => {
+    
+//     itemName.push(el.price)
+// })
+// itemName.sort()
+// console.log(itemName);
+
+// x=Math.min(...itemName)
+// console.log(x);
+
+// function randomNumber (min, max) {
+//    return Math.floor(Math.random()*(max-min)) + min
+// }
+
+// console.log(randomNumber(1,10));
+
+
+// for(let x in items) {
+//     console.log(items[x].name);
+// }
+
+// for(let x in items) {
+//     console.log(x) + " in";
+// }
+
+// for(let x of items) {
+//     console.log(x);
+// }
+
+
+// myFunction();
+
+
+// function myFunction() {
+//    carName = "Volvo";
+// }
+
+// console.log(carName);
+
+
+// class podaci {
+//     constructor(ime,prezime,godine,grad) {
+//         this.ime = ime;
+//         this.prezime = prezime;
+//         this.godine = godine;
+//         this.grad = grad;
+//     }
+//     age (danas) {
+//         return  danas - this.godine
+//     }
+// }
+
+// let myName = new podaci("Filip", "Ratkovic", 1995, "Novi Pazar")
+// console.log (myName.age(2022))
