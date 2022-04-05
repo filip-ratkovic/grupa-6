@@ -1573,3 +1573,40 @@ items=[
 
 // let myName = new podaci("Filip", "Ratkovic", 1995, "Novi Pazar")
 // console.log (myName.age(2022))
+
+
+// let myPromise = new Promise(function (resolve, reject) {
+//     let x = 1;
+// if(x>2)  {
+//     resolve("true")
+// } else { reject("false") }
+    
+// })
+
+// myPromise.then(
+//     function (value) {
+//         console.log(value,"resolved");
+//     }, 
+//     function (error) {
+//         console.log(error, "rejected");
+//     }
+    
+// )
+
+// fetch("https://catfact.ninja/facts?page=35", {
+//     method: "POST",
+//     headers: {
+//         "Content-type": "application/json"
+//     },
+//     body:  JSON.stringify( {
+//             data: "Catscatscats fact 36",
+//             current_page: 35
+//         })
+// })
+// .then((res)=>{
+//     return res.json()
+// })
+// .then((data)=>{
+//     console.log(data);
+// })
+
