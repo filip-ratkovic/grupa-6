@@ -73,6 +73,9 @@ let leftButton = document.querySelector('.left-button');
 let rightButton = document.querySelector('.right-button');
 let prevUrl = null;
 let nextUrl = null;
+let linksDiv = document.getElementById('links')
+
+
 
 btn.style.padding = "10px"
 
@@ -86,7 +89,6 @@ let getPokemons = () => {
 }
 let color
 let getCard = (data) => {
-	console.log(data);
 	visina.innerHTML = data.height
 	tezina.innerHTML = data.weight
 	exp.innerHTML = data.height
@@ -96,7 +98,35 @@ let getCard = (data) => {
 	let themeColor = colors[data.types[0].type.name];
 	imgCont.style.background = themeColor;
 	type.style.background = themeColor;
+	
 }
+
+function linksFunk (value) {
+	let listItem = document.createElement('div')
+    listItem.style.width = "100px";
+    listItem.style.height = "50px";
+    listItem.style.backgroundColor = "darkseagreen";
+    listItem.style.display = "inline-block"
+    listItem.style.flexWrap = "wrap"
+    listItem.style.margin = "10px"
+    listItem.style.padding = "10px"
+    listItem.style.borderRadius = "4px"
+    listItem.style.verticalAlign = "middle"
+    listItem.style.justifyContent = "space-around"
+	listItem.innerHTML = value;
+	return listItem;
+}
+
+async function fetcher() {
+	rez = await fetch("https://pokeapi.co/api/v2/pokemon?offset=20&limit=10")
+	rez = await rez.json()
+	for (let i = 0; i< rez.results.length; i++) {
+		        linksDiv.appendChild(linksFunk(rez.results[i].name))
+		    }
+console.log(rez);
+}
+fetcher()
+
 
 
 
