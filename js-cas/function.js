@@ -1242,7 +1242,7 @@
 // async function catBreeds() {
 //     let breeds = await fetch("https://catfact.ninja/breeds")
 //     let breedsJson = await breeds.json()
-//     for (let i = 0; breedsJson.data.length; i++) {
+//     for (let i = 0; i< breedsJson.data.length; i++) {
 //         div1.appendChild(stil(breedsJson.data[i].breed))
 //     }
 // }
@@ -1485,14 +1485,14 @@
     
 // userName = userLog2(person1)
 
-items=[
-    {name:"bike", price:100},
-    {name:"tv", price:500},
-    {name:"phone", price:450},
-    {name:"book", price:30},
-    {name:"keyboard", price:20},
-    {name:"laptop", price:200}
-]
+// items=[
+//     {name:"bike", price:100},
+//     {name:"tv", price:500},
+//     {name:"phone", price:450},
+//     {name:"book", price:30},
+//     {name:"keyboard", price:20},
+//     {name:"laptop", price:200}
+// ]
 
 // cheap = items.filter((item) => {
 //     return item.price>=100
@@ -1610,3 +1610,48 @@ items=[
 //     console.log(data);
 // })
 
+items=[
+    {name:"bike", price:100},
+    {name:"tv", price:500},
+    {name:"phone", price:450},
+    {name:"book", price:30},
+    {name:"keyboard", price:20},
+    {name:"laptop", price:200}
+]
+
+arr1=[1,44,23,65,123,-11]
+arr2=[1,44,23,65,true, null, "String", "tekst",[2,4,23],123,-11]
+obj1= {
+    name: "filip",
+    age: 27
+}
+
+// zad5=arr1.map((el)=> {
+// return Math.pow(el,2)
+// })
+// console.log(zad5);
+
+
+// zad4=items.filter((el)=> {
+//     return el.price>33
+// })
+
+
+// console.log(zad4);
+
+
+
+// let zad1 = []
+// items.map((el)=> {
+//     if (el.name.length>5) {
+//         zad1.push(el.name)
+//     }
+// })
+
+// console.log(zad1);
+
+// zad1 = arr2.filter((el)=>{
+//     return el%2!==0
+// })
+
+// console.log(zad1);
