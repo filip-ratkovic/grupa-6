@@ -1626,6 +1626,90 @@ obj1= {
     age: 27
 }
 
+// let email=document.getElementById("email");
+// let fname = document.getElementById("name");
+// let password = document.getElementById("password")
+// let username = document.getElementById("username");
+// function valid () {
+// if(fname.value.length<=1) {
+//     alert("Please enter valid name");
+//     return false
+// }
+// if(password.value.length<8) {
+//     alert("Please enter password longer than 8 characters")
+//     return false
+// }
+// podaci={
+//     name: fname.value,
+//     email: email.value,
+//     password: password.value,
+//     username: username.value
+// }
+// console.log(podaci);
+// }
+
+// form=document.getElementById("form")
+// form.addEventListener("submit",(el) => {
+//     el.preventDefault();
+//     valid()
+// })
+
+
+// const promise1 = new Promise((resolve, reject) => {
+//     setTimeout(resolve, 500, 'one');
+//   });
+  
+//   const promise2 = new Promise((resolve, reject) => {
+//     setTimeout(resolve, 100, 'two');
+//   });
+  
+//   Promise.race([promise1, promise2]).then((value) => {
+//     console.log(value);
+//   });
+
+
+
+
+// const promise1 = Promise.reject(0);
+// const promise2 = new Promise((resolve) => setTimeout(resolve, 100, 'quick'));
+// const promise3 = new Promise((resolve) => setTimeout(resolve, 500, 'slow'));
+
+// const promises = [promise1, promise2, promise3];
+
+// Promise.allSettled(promises).then((value) => value.forEach((value) => {console.log(value.status);}));
+
+
+// var p1 = Promise.resolve(3);
+// var p2 = 1337;
+// var p3 = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     reject("foo");
+//   }, 200);
+// });
+
+// Promise.any([p3, p2, p1]).then(values => {
+//   console.log(values); 
+// });
+
+// myPromise = new Promise((resolve, reject) => {
+//     a = prompt("Unesite paran broj")
+//     if(a%2!==0) {
+//         reject("Pogresan unos")
+//     } else {
+//         resolve(a + " je paran broj")
+//     }
+// })
+
+// myPromise 
+// .then((el)=>{
+//     console.log(el);
+// })
+// .catch((error)=>{
+//     console.log(error);
+// })
+
+
+
 // zad5=arr1.map((el)=> {
 // return Math.pow(el,2)
 // })
