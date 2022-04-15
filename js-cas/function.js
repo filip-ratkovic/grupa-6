@@ -1626,6 +1626,23 @@ obj1= {
     age: 27
 }
 
+
+let activities = [
+    ['Work', 9],
+    ['Eat', 1],
+    ['Commute', 2],
+    ['Play Game', 1],
+    ['Sleep', 7]
+];
+
+// activities.forEach((el)=> {
+//     el.forEach((data)=> {
+//       if(typeof data === "string")   {
+//           console.log(data);
+//       }
+//     })
+// })
+
 // let email=document.getElementById("email");
 // let fname = document.getElementById("name");
 // let password = document.getElementById("password")
