@@ -1635,6 +1635,32 @@ let activities = [
     ['Sleep', 7]
 ];
 
+// let form = document.getElementById("form")
+// let email=document.getElementById("email");
+// let fname = document.getElementById("name");
+// let password = document.getElementById("password")
+// let username = document.getElementById("username")
+// let text = document.getElementById("text");
+
+
+// function podatak() {
+//     podaci = {
+//         email: email.value,
+//         name: fname.value,
+//         password: password.value,
+//         username: username.value
+//     }
+// console.log(podaci);
+// }
+
+// form.addEventListener("submit", (el) => {
+//     el.preventDefault();
+//     podatak()
+// })
+
+
+
+
 // activities.forEach((el)=> {
 //     el.forEach((data)=> {
 //       if(typeof data === "string")   {
