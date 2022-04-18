@@ -1635,6 +1635,28 @@ let activities = [
     ['Sleep', 7]
 ];
 
+// parentDiv = document.getElementById("parent")
+
+// fetchLink = "https://catfact.ninja/facts"
+
+// function lista (value) {
+//    var divChild = document.createElement("div");
+//     divChild.style.width="200px";
+//     divChild.style.height="200px";
+//     divChild.innerHTML=value;
+//     return divChild
+// }
+
+// let fetchFacts =  async () => {
+//     res = await fetch(fetchLink)
+//     res2 = await res.json()
+//     console.log(res2);
+//     for (let i = 0; i < 10; i++) {
+//         parentDiv.appendChild(lista(res2.data[i].fact));        
+//     }
+// }
+// fetchFacts()
+
 // let form = document.getElementById("form")
 // let email=document.getElementById("email");
 // let fname = document.getElementById("name");
