@@ -1610,30 +1610,30 @@
 //     console.log(data);
 // })
 
-items=[
-    {name:"bike", price:100},
-    {name:"tv", price:500},
-    {name:"phone", price:450},
-    {name:"book", price:30},
-    {name:"keyboard", price:20},
-    {name:"laptop", price:200}
-]
+// items=[
+//     {name:"bike", price:100},
+//     {name:"tv", price:500},
+//     {name:"phone", price:450},
+//     {name:"book", price:30},
+//     {name:"keyboard", price:20},
+//     {name:"laptop", price:200}
+// ]
 
-arr1=[1,44,23,65,123,-11]
-arr2=[1,44,23,65,true, null, "String", "tekst",[2,4,23],123,-11]
-obj1= {
-    name: "filip",
-    age: 27
-}
+// arr1=[1,44,23,65,123,-11]
+// arr2=[1,44,23,65,true, null, "String", "tekst",[2,4,23],123,-11]
+// obj1= {
+//     name: "filip",
+//     age: 27
+// }
 
 
-let activities = [
-    ['Work', 9],
-    ['Eat', 1],
-    ['Commute', 2],
-    ['Play Game', 1],
-    ['Sleep', 7]
-];
+// let activities = [
+//     ['Work', 9],
+//     ['Eat', 1],
+//     ['Commute', 2],
+//     ['Play Game', 1],
+//     ['Sleep', 7]
+// ];
 
 // parentDiv = document.getElementById("parent")
 
@@ -1804,3 +1804,4 @@ let activities = [
 // })
 
 // console.log(zad1);
+
