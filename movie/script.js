@@ -4,7 +4,6 @@ const imgURL = "https://image.tmdb.org/t/p/w1280";
 const searchURL =
     "https://api.themoviedb.org/3/search/movie?&api_key=04c35731a5ee918f014970082a0088b1&query=";
 const pageURL="https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=04c35731a5ee918f014970082a0088b1&page="
-
 const main = document.getElementById("main");
 const form = document.getElementById("form");
 const search = document.getElementById("search");
@@ -17,7 +16,6 @@ getUrl(URL);
 async function getUrl(url) {
     res = await fetch(url);
     finalRes = await res.json();
-    console.log(finalRes);
 getMovies(finalRes.results)
 }
 
