@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    width: 40vw;
+    height: 60vh;
+    margin: 10vh auto;
+    background-color: rgba(110, 144, 202, 0.7);
+    border-radius:7px;
+}
+
+.search {
+    width: 100%;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    width: 80%;
+    padding: 7px;
+    background: rgba(151, 172, 209, 0.7);
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    color: white;
+}
+
