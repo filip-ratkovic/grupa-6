@@ -55,5 +55,17 @@ border: none;
 outline: none;
 box-shadow: inset 7px 7px 7px #d5dadf, inset -7px -7px 7px white;
 background: #ecf0f3;
+padding-left: 10px;
+}
 
+button{
+    width:100%;
+height: 40px;
+font-size: 14px;
+border-radius: 50px;
+border: none;
+outline: none;
+color: white;
+background: #00acee;
+font-weight: bold;
 }
