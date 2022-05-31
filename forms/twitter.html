@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter login</title>
+    <link rel="stylesheet" href="twitter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <i class="fa fa-twitter"></i>
+        </div>
+        <div class="twitter-name">
+            <h1>TWITTER</h1>
+        </div>
+
+        <div class="input">
+           <form action="/login">
+            <p><label for="email">EMAIL</label><br>
+                <input type="email" name="email" id="email" placeholder="example@gmail.com" required></p>
+                <p>
+                    <label for="password">PASSWORD</label><br>
+                    <input type="password" name="password" id="password" placeholder="min 8 characters long" min="8" required>
+                </p>
+                <button>LOGIN</button>
+           </form>
+        </div>
+        
+    </div>
+</body>
+
+</html>
