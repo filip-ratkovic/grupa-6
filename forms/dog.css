@@ -83,3 +83,26 @@ margin-right: 10px;
     border: none;
     outline: none;
 }
+
+
+.radio-cont{
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.radio-cont label {
+    background-color: #ffffff;
+    padding: 5px 10px ;
+    border-radius: 4px;
+    text-align: center;
+    transition: .2s all ease-in-out;
+}
+
+.radio-cont input[type="radio"] {
+    display: none;
+}
+
+.radio-cont input[type="radio"]:checked + label {
+    background-color: #F7B1AB;
+}

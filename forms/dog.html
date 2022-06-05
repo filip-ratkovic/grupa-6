@@ -48,16 +48,37 @@
                 <div class="pets-birthday">
                     <label for="birthday">Birthday</label><br>
                     <input type="date" name="birthday" id="birthday" placeholder="MM/DD/YYYY"
-                    onfocus="(this.type='date')" required>
+                        onfocus="(this.type='date')" required>
                 </div>
             </div>
 
             <div class="input">
+                <div class="gender">
+                    <label for="gender">Gender</label>
+                    <div class="radio-cont">
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="male" name="gender"  value="female">
+                        <label for="male">Male</label>
                     </div>
+                </div>
+
+                <div class="spayed">
+                    <label for="">Spayed or Neutered</label>
+                    <div class="radio-cont">
+                        <input type="radio" id="spayed" name="spayer-or-neutered" value="spayer-or-neutered">
+                        <label for="spayed">Spayed</label>
+                        <input type="radio" id="neutered" name="spayer-or-neutered" value="spayer-or-neutered">
+                        <label for="neutered">Neutered</label>
+                    </div>
+                </div>
             </div>
+
+            
         </div>
     </div>
-<script src="dog.js"></script>
+    </div>
+    <script src="dog.js"></script>
 </body>
 
 </html>
