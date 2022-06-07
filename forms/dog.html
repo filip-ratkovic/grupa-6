@@ -27,6 +27,7 @@
             <header class="right-header">
                 <h1>Yay, puppies! Ensure your pup gets the best care!</h1>
             </header>
+            <form action="/podaci">
             <div class="input">
                 <div class="pets-name">
                     <label for="name">Name</label><br>
@@ -66,15 +67,33 @@
                 <div class="spayed">
                     <label for="">Spayed or Neutered</label>
                     <div class="radio-cont">
-                        <input type="radio" id="spayed" name="spayer-or-neutered" value="spayer-or-neutered">
+                        <input type="radio" id="spayed" name="spayer-or-neutered" value="spayer">
                         <label for="spayed">Spayed</label>
-                        <input type="radio" id="neutered" name="spayer-or-neutered" value="spayer-or-neutered">
+                        <input type="radio" id="neutered" name="spayer-or-neutered" value="neutered">
                         <label for="neutered">Neutered</label>
                     </div>
                 </div>
             </div>
+<div class="input">
+    <div class="weight">
+        <label for="">Weight</label>
+        <div class="radio-cont" id="weight">
+            <input type="radio" id="s" name="weight" value="small">
+            <label for="s">0-5 kg</label>
 
-            
+            <input type="radio" id="m" name="weight" value="medium">
+            <label for="m">5-10 kg</label>
+
+            <input type="radio" id="l" name="weight" value="large">
+            <label for="l">10-15 kg</label>
+
+            <input type="radio" id="xl" name="weight" value="large">
+            <label for="xl">15+ kg</label>
+        </div>
+    </div>
+</div>
+        <div class="submit"><button>Potvrdite podatke</button></div>   
+    </form> 
         </div>
     </div>
     </div>
