@@ -1,5 +1,5 @@
 link="https://dog.ceo/api/breeds/list/all"
-link2="https://dog.ceo/api/breed/Affenpinscher/images/random"
+link2="https://dog.ceo/api/breeds/image/random"
 
 async function breed() {
     res =await fetch(link2)
