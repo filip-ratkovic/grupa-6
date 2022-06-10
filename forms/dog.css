@@ -140,4 +140,56 @@ margin-right: 10px;
 
 }
 
+@media (max-width:500px){
+    .container{
+        width:100vw;
+        display: flex;
+        flex-direction:column;
+        margin: 0px;
+        height: 100%;
+    }
+    
+    .right{
+        background-color:#F7B1AB;
+        width: 100vw;
+        height: 20%;
+    }
+    
+    .left{
+        background-color: #807182;
+        width: 100vw;
+        height:80%;
+        padding: 30px;
+        position: relative;
+    
+    }
+.dog{
+    top: 0px;
+    left: 300px;
+}
+    .dog img {
+        width: 100px;
+    }
+ .input {
+    display: flex;
+    flex-direction: column;
+}
 
+.input input{
+    width: 100%;
+}
+
+.radio-cont{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+#label {
+    padding: 5px 35px;
+}
+   .pets-photo, .pets-name, .pets-birthday, .pets-breed, .pets-gender, .spayed {
+       width: 100%;
+       display: block;
+   }
+}
