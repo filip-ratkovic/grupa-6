@@ -95,26 +95,3 @@ img {
     border: none;
     border-radius: 5px;
   }
-
-/* CONTEINER ZA LINKOVE /////////////////// */
-
-  .conteiner-link {
-    width: 400px;
-    height: 400px;
-    background-color:white;
-    color: black;
-    font-family: sans-serif;
-    font-size: 18px;
-    border-radius: 8px;
-    margin-top: 5%;
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.35);
-}
-
-.links {
-    height: 80%;
-
-}
-
-.pages {
-    height: 20%;
-}
