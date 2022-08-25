@@ -1,41 +1,3 @@
-// window.onload = async function () {
-//     let pokemonResource = {}
-//     let pokemonArr = [];
-//     const pokemonInfo = [];
-
-//     const getPokeList = async () => {
-//         try {
-//             const r = await fetch("https://pokeapi.co/api/v2/pokemon?offset=10&limit=10");
-//             const res = await r.json();
-//             pokemonResource = res;
-//         } catch (error) {
-//             console.log(error);
-//         }
-//     };
-
-
-
-//     const getPokemon = async (URL) => {
-
-//         try {
-//             const p = await fetch(URL)
-//             const pokemon = await p.json();
-//             pokemonInfo.push(pokemon)
-//         } catch (error) {
-//             console.log(error);
-//         }
-//     };
-//     await getPokeList();
-
-// pokemonArr = pokemonResource.results.map((p)=>{
-// return getPokemon(p.url)
-// })
-
-//     await Promise.all(pokemonArr).then(() =>
-//     console.log(pokemonInfo))
-
-// }
-
 
 const colors = {
 	normal: '#A8A77A',
@@ -117,15 +79,6 @@ function linksFunk (value) {
 	return listItem;
 }
 
-async function fetcher() {
-	rez = await fetch("https://pokeapi.co/api/v2/pokemon?offset=20&limit=10")
-	rez = await rez.json()
-	for (let i = 0; i< rez.results.length; i++) {
-		        linksDiv.appendChild(linksFunk(rez.results[i].name))
-		    }
-console.log(rez);
-}
-fetcher()
 
 
 
