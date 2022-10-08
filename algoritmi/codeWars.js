@@ -59,4 +59,14 @@
 //        return counter
 // }
 
-//////4444 
+//////Palindrom
+
+
+
+  palindrom =  (text) => {
+   text.split(" ").reverse().join("").toLowerCase() === 
+   text.toLowerCase().split(" ").join("") ? console.log(true) : console.log(false);
+  }
+
+  palindrom("Ana voli Milovana")
+
